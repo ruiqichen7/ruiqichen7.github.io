@@ -42,7 +42,7 @@ author_profile: true
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;">S-LGCN: Software-Hardware Co-Design for Accelerating LightGCN</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10546640" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/abstract/document/10546640" >10.23919/DATE58400.2024.10546640</a></p>
         <p style="margin: 5px 0;"><i>2024 Design, Automation & Test in Europe Conference & Exhibition</i></p>
     </div>
 </div>
