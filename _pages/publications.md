@@ -31,7 +31,7 @@ author_profile: true
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;">FPGA-Based Sparse Matrix Multiplication Accelerators: From State-of-the-art to Future Opportunities</h3>
-        <p style="margin: 5px 0;">DOI: TBD</p>
+        <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/doi/10.1145/3687480" >10.1145/3687480</a></p>
         <p style="margin: 5px 0;"><i>ACM Transactions on Reconfigurable Technology and Systems, Early access</i></p>
     </div>
 </div>
