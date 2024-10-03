@@ -42,9 +42,13 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ======
 ------
 
-### Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism
+### Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism [[PDF](../files/paper/VinaFPGACluster.pdf)]
 Ming Ling, Zhihao Feng, Ruiqi Chen, et al<br> 
 IEEE Transactions on Biomedical Circuits and Systems, 2024, early access.
+
+### FPGA-Based Sparse Matrix Multiplication Accelerators: From State-of-the-art to Future Opportunities [[PDF](../files/paper/spmmsurvey.pdf)]
+Yajing Liu, Ruiqi Chen, Shuyang Li et al<br> 
+ACM Transactions on Reconfigurable Technology and Systems, 2024, early access.
 
 ### Graph-OPU: A Highly Integrated FPGA-Based Overlay Processor for Graph Neural Networks [[PDF](../files/paper/Graph_OPU.pdf)]
 Ruiqi Chen, Haoyang Zhang, Shun Li, et al<br>
@@ -57,10 +61,6 @@ Ruiqi Chen, Haoyang Zhang, Yuhanxiao Ma, et al<br>
 ### Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism [[PDF](../files/paper/VinaFPGA.pdf)]
 Ming Ling, Qingde Lin, Ruiqi Chen, et al<br>
 IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2022, 31(4): 484-497.
-
-### Biological Activity Prediction of GPCR-targeting Ligands on Heterogeneous FPGA-based Accelerators [[PDF](../files/paper/FCCM22.pdf)]
-Ruiqi Chen, Yuhanxiao Ma, Shaodong Zheng, et al<br>
-2022 IEEE 30th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)
 
 ### Accelerating AutoDock VINA with GPUs [[PDF](../files/paper/VinaGPU.pdf)]
 Shidi Tang, Ruiqi Chen, Ming Ling, et al<br>

@@ -57,8 +57,6 @@ redirect_from:
   * IEEE Transactions on Biomedical Circuits and Systems (TBioCAS)
   * The Journal of Supercomputing
   * PeerJ Computer Science
-  * IEEE Access
-  * Scientific Reports
 
 * ### Conference Reviews
   * International Symposium on Circuits and Systems (ISCAS)
