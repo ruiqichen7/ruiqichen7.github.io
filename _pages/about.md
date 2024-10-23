@@ -10,7 +10,7 @@ redirect_from:
 
 ------
 
-I'm pursuing the Ph.D. degree in Engineering Sciences at the Vrije Universiteit Brussel. My research interests include domain-specific architecture and FPGA-based accelerators. From 2020 to 2023, I served as a Research Assistant with VeriMake Innovation Lab, Fudan University and Southeast University, respectively. I received my M.S. degree in Integrated Circuit Engineering from Fuzhou University in 2020. 
+I'm under the advisement of Prof. [Bruno da Silva](https://www.etrovub.be/people/member/about-bio/bdasilva/) and pursuing the Ph.D. degree in Engineering Sciences at the Vrije Universiteit Brussel. My research interests include domain-specific architecture and FPGA-based accelerators. From 2020 to 2023, I served as a Research Assistant with VeriMake Innovation Lab, Fudan University and Southeast University, respectively. I received my M.S. degree in Integrated Circuit Engineering from Fuzhou University in 2020. 
 
 You can find my CV here: [Ruiqi Chen's Curriculum Vitae](../files/RickyCV.pdf).
 
@@ -47,7 +47,7 @@ Ming Ling, Zhihao Feng, Ruiqi Chen, et al<br>
 IEEE Transactions on Biomedical Circuits and Systems, 2024, early access.
 
 ### FPGA-Based Sparse Matrix Multiplication Accelerators: From State-of-the-art to Future Opportunities [[PDF](../files/paper/spmmsurvey.pdf)]
-Yajing Liu, Ruiqi Chen, Shuyang Li et al<br> 
+Yajing Liu, Ruiqi Chen, Shuyang Li, et al<br> 
 ACM Transactions on Reconfigurable Technology and Systems, 2024, early access.
 
 ### Graph-OPU: A Highly Integrated FPGA-Based Overlay Processor for Graph Neural Networks [[PDF](../files/paper/Graph_OPU.pdf)]
