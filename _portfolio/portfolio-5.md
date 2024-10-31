@@ -1,6 +1,6 @@
 ---
 title: "NOVIS"
-excerpt: "<br/><img src='/images/NOVIS/NOVIS.png' style='max-height:200px; width:auto;'>"
+excerpt: "<br/><img src='/images/NOVIS/wristband.png' style='max-height:200px; width:auto;'>"
 collection: portfolio
 ---
 
@@ -25,9 +25,4 @@ collection: portfolio
         <img src="/images/NOVIS/application.png" alt="Application interface" style="width:250px; height:auto;"/>
         <figcaption>Application Interface</figcaption>
     </div>
-</div>
-
-<div style="text-align: center; margin: 10px;">
-    <img src="/images/NOVIS/real_life.png" alt="NOVIS in real life" style="max-width:100%; height:auto;"/>
-    <figcaption>NOVIS in Real Life</figcaption>
 </div>
