@@ -48,7 +48,7 @@ IEEE Transactions on Biomedical Circuits and Systems, 2024, early access.
 
 ### FPGA-Based Sparse Matrix Multiplication Accelerators: From State-of-the-art to Future Opportunities [[PDF](../files/paper/spmmsurvey.pdf)]
 Yajing Liu, Ruiqi Chen, Shuyang Li, et al<br> 
-ACM Transactions on Reconfigurable Technology and Systems, 2024, early access.
+ACM Transactions on Reconfigurable Technology and Systems, 2024, 17(4), Article 59 (November 2024): 1-37.
 
 ### Graph-OPU: A Highly Integrated FPGA-Based Overlay Processor for Graph Neural Networks [[PDF](../files/paper/Graph_OPU.pdf)]
 Ruiqi Chen, Haoyang Zhang, Shun Li, et al<br>
