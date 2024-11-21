@@ -10,7 +10,7 @@ redirect_from:
 
 ------
 
-I'm under the advisement of Prof. [Bruno da Silva](https://www.etrovub.be/people/member/about-bio/bdasilva/) and pursuing the Ph.D. degree in Engineering Sciences at the Vrije Universiteit Brussel. My research interests include domain-specific architecture and FPGA-based accelerators. From 2020 to 2023, I served as a Research Assistant with VeriMake Innovation Lab, Fudan University and Southeast University, respectively. I received my M.S. degree in Integrated Circuit Engineering from Fuzhou University in 2020. 
+I'm under the advisement of Prof. [Bruno da Silva](https://www.etrovub.be/people/member/about-bio/bdasilva/) and pursuing the Ph.D. degree in Engineering Sciences at the Vrije Universiteit Brussel. My research interests include domain-specific architecture and FPGA-based accelerators. From 2020 to 2023, I served as a Research Assistant with VeriMake Innovation Lab, Fudan University and Southeast University, respectively. I received my M.S. degree in Integrated Circuit Engineering from Fuzhou University in 2020, and the B.S. degree in Electronic Science and Technology from Southeast University Chengxian College in 2017.
 
 You can find my CV here: [Ruiqi Chen's Curriculum Vitae](../files/RickyCV.pdf).
 
@@ -26,6 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
+- 11/2024: 🎉 Our work (ATE-GCN) is accepted by [DATE 2025](https://www.date-conference.com/)
 - 07/2024: I'm serving as a reviewer for the [APCCAS 2024](https://apccas2024.org/)
 - 07/2024: I'm serving as a reviewer for the [BIOCAS 2024](https://2024.ieee-biocas.org/)
 - 07/2024: 🎉 Our survey (FPGA-Based Sparse Matrix Multiplication Accelerators) is accepted by [TRETS](https://dl.acm.org/doi/10.1145/3687480) (Early Access)

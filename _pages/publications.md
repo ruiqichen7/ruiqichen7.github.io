@@ -12,11 +12,29 @@ author_profile: true
     <label for="year-select">Quick view by year:  </label>
     <select id="year-select" onchange="scrollToYear(event)">
         <option value="">Select a year</option>
+        <option value="year-2025">2025</option>
         <option value="year-2024">2024</option>
         <option value="year-2023">2023</option>
         <option value="year-2022">2022</option>
         <option value="year-2021">2021</option>
     </select>
+</div>
+
+
+2025
+======  
+------
+<a id="year-2025"></a>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
+        <span style="background-color: #070; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">DATE</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">ATE-GCN: An FPGA-based Graph Convolutional Network Accelerator with Asymmetrical Ternary Quantization</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.date-conference.com/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>2025 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+    </div>
 </div>
 
 
