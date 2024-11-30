@@ -26,7 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
-- 11/2024: I'm serving as a reviewer for the [ISCAS 2025](https://iscas2025.org/)
+- 11/2024: I'm serving as a reviewer for the [ISCAS 2025](https://2025.ieee-iscas.org/)
 - 11/2024: 🎉 Our work (ATE-GCN) is accepted by [DATE 2025](https://www.date-conference.com/)
 - 07/2024: I'm serving as a reviewer for the [APCCAS 2024](https://apccas2024.org/)
 - 07/2024: I'm serving as a reviewer for the [BIOCAS 2024](https://2024.ieee-biocas.org/)
