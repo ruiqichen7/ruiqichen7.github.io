@@ -41,6 +41,17 @@ author_profile: true
 2024
 ======  
 ------
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
+        <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TBioCAS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism</h3>
+        <p style="margin: 5px 0;">DOI: <a href="http://dx.doi.org/10.1109/TBCAS.2024.3388323" >10.1109/TBCAS.2024.3388323</a></p>
+        <p style="margin: 5px 0;"><i>IEEE Transactions on Biomedical Circuits and Systems, 2024, 18(6): 1321-1337.</i></p>
+    </div>
+</div>
+
 <a id="year-2024"></a>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
@@ -64,18 +75,6 @@ author_profile: true
         <p style="margin: 5px 0;"><i>2024 Design, Automation & Test in Europe Conference & Exhibition</i></p>
     </div>
 </div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-    <div style="flex: 0 0 80px;">
-        <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TBioCAS</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;">Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism</h3>
-        <p style="margin: 5px 0;">DOI: <a href="http://dx.doi.org/10.1109/TBCAS.2024.3388323" >10.1109/TBCAS.2024.3388323</a></p>
-        <p style="margin: 5px 0;"><i>IEEE Transactions on Biomedical Circuits and Systems, Early access</i></p>
-    </div>
-</div>
-
 
 2023 
 ====== 

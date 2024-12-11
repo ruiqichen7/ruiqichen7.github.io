@@ -44,7 +44,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 
 ### Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism [[PDF](../files/paper/VinaFPGACluster.pdf)]
 Ming Ling, Zhihao Feng, Ruiqi Chen, et al<br> 
-IEEE Transactions on Biomedical Circuits and Systems, 2024, early access.
+IEEE Transactions on Biomedical Circuits and Systems, 2024, 18(6): 1321-1337.
 
 ### FPGA-Based Sparse Matrix Multiplication Accelerators: From State-of-the-art to Future Opportunities [[PDF](../files/paper/spmmsurvey.pdf)]
 Yajing Liu, Ruiqi Chen, Shuyang Li, et al<br> 
