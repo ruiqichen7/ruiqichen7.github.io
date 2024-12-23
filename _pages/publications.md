@@ -8,8 +8,8 @@ author_profile: true
 
 ------
 
-<div style="position: sticky; top: 0; background-color: white; z-index: 100; padding: 10px;">
-    <label for="year-select" style="margin-right: 5px; color: black;">Quick view by year:  </label>
+<div style="position: sticky; top: 0; background-color: white; z-index: 100; padding: 10px; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); display: inline-flex; align-items: center;">
+    <label for="year-select" style="margin-right: 5px; color: black;">Quick view by year:</label>
     <select id="year-select" onchange="scrollToYear(event)">
         <option value="">Select a year</option>
         <option value="year-2025">2025</option>
@@ -21,8 +21,8 @@ author_profile: true
 </div>
 
 
-<a id="year-2025"></a>
 
+<a id="year-2025" style="scroll-margin-top: 70px;"></a>
 2025
 ======  
 ------
@@ -38,8 +38,8 @@ author_profile: true
     </div>
 </div>
 
-<a id="year-2024"></a>
 
+<a id="year-2024" style="scroll-margin-top: 70px;"></a>
 2024
 ======  
 ------
@@ -75,9 +75,9 @@ author_profile: true
         <p style="margin: 5px 0;"><i>2024 Design, Automation & Test in Europe Conference & Exhibition</i></p>
     </div>
 </div>
-<a id="year-2023"></a>
 
 
+<a id="year-2023" style="scroll-margin-top: 70px;"></a>
 2023 
 ====== 
 ------
@@ -158,9 +158,9 @@ author_profile: true
         <p style="margin: 5px 0;"><i>Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays</i></p>
     </div>
 </div>
-<a id="year-2022"></a>
 
 
+<a id="year-2022" style="scroll-margin-top: 70px;"></a>
 2022 
 ====== 
 ------
@@ -230,9 +230,9 @@ author_profile: true
         <p style="margin: 5px 0;"><i>Molecules, 2022, 27(9): 3041.</i></p>
     </div>
 </div>
-<a id="year-2021"></a>
 
 
+<a id="year-2021" style="scroll-margin-top: 70px;"></a>
 2021 
 ====== 
 ------
