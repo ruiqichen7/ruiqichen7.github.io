@@ -55,6 +55,7 @@ redirect_from:
   * IEEE Transactions on Computers (TC)
   * ACM Transactions on Reconfigurable Technology and Systems (TRETS)
   * IEEE Transactions on Biomedical Circuits and Systems (TBioCAS)
+  * Multimedia Systems
   * The Journal of Supercomputing
   * PeerJ Computer Science
 
