@@ -8,8 +8,8 @@ author_profile: true
 
 ------
 
-<div style="margin-bottom: 20px; display: flex; align-items: center;">
-    <label for="year-select">Quick view by year:  </label>
+<div style="position: sticky; top: 0; background-color: white; z-index: 100; padding: 10px;">
+    <label for="year-select" style="margin-right: 5px; color: black;">Quick view by year:  </label>
     <select id="year-select" onchange="scrollToYear(event)">
         <option value="">Select a year</option>
         <option value="year-2025">2025</option>
@@ -21,10 +21,11 @@ author_profile: true
 </div>
 
 
+<a id="year-2025"></a>
+
 2025
 ======  
 ------
-<a id="year-2025"></a>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
@@ -37,6 +38,7 @@ author_profile: true
     </div>
 </div>
 
+<a id="year-2024"></a>
 
 2024
 ======  
@@ -51,8 +53,6 @@ author_profile: true
         <p style="margin: 5px 0;"><i>IEEE Transactions on Biomedical Circuits and Systems, 2024, 18(6): 1321-1337.</i></p>
     </div>
 </div>
-
-<a id="year-2024"></a>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
@@ -75,11 +75,12 @@ author_profile: true
         <p style="margin: 5px 0;"><i>2024 Design, Automation & Test in Europe Conference & Exhibition</i></p>
     </div>
 </div>
+<a id="year-2023"></a>
+
 
 2023 
 ====== 
 ------
-<a id="year-2023"></a>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
@@ -157,12 +158,12 @@ author_profile: true
         <p style="margin: 5px 0;"><i>Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays</i></p>
     </div>
 </div>
+<a id="year-2022"></a>
 
 
 2022 
 ====== 
 ------
-<a id="year-2022"></a>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
@@ -229,12 +230,12 @@ author_profile: true
         <p style="margin: 5px 0;"><i>Molecules, 2022, 27(9): 3041.</i></p>
     </div>
 </div>
+<a id="year-2021"></a>
 
 
 2021 
 ====== 
 ------
-<a id="year-2021"></a>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
