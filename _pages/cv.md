@@ -48,7 +48,7 @@ redirect_from:
 * ### Embedded Prototyping
   * Android, Arduino, STM32 MCU, Raspberry Pi, Jetson
   
-🧰 Service
+🧰 Services
 ======
 ------
 * ### Journal Reviews
@@ -63,7 +63,14 @@ redirect_from:
   * International Symposium on Circuits and Systems (ISCAS)
   * Biomedical Circuits and Systems Conference (BioCAS)
   * Asia Pacific Conference on Circuits and Systems (APCCAS)
+  
+👥 Memberships
+======
+------
+* Member of the Institute of Electrical and Electronics Engineers (IEEE)
+* Member of the Association for Computing Machinery (ACM)
 
+  
 🏅 Awards
 ======
 ------
