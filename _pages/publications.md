@@ -47,6 +47,17 @@ author_profile: true
 ------
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
+        <span style="background-color: #C00; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">arXiv</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">A Power-Efficient Hardware Implementation of L-Mul</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://doi.org/10.48550/arXiv.2412.18948" >10.48550/arXiv.2412.18948</a></p>
+        <p style="margin: 5px 0;"><i>arXiv, 2024, 1-6.</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
         <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TBioCAS</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">

@@ -42,6 +42,10 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ======
 ------
 
+### A Power-Efficient Hardware Implementation of L-Mul [[PDF](../files/paper/l_mul_v1.pdf)]
+Ruiqi Chen, Yangxintong Lyu, Han Bao, et al<br> 
+arXiv, 2024.
+
 ### Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism [[PDF](../files/paper/VinaFPGACluster.pdf)]
 Ming Ling, Zhihao Feng, Ruiqi Chen, et al<br> 
 IEEE Transactions on Biomedical Circuits and Systems, 2024, 18(6): 1321-1337.
