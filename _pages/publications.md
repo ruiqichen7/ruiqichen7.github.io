@@ -30,6 +30,17 @@ author_profile: true
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
+        <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TSUSC</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">EEVS: Redeploying Discarded Smartphones for Economic and Ecological Drug Molecules Virtual Screening</h3>
+        <p style="margin: 5px 0;">DOI: <a href="http://dx.doi.org/10.1109/TBCAS.2024.3388323](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742329" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>IEEE Transactions on Sustainable Computing</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
         <span style="background-color: #070; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">DATE</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
