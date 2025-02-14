@@ -34,7 +34,7 @@ author_profile: true
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;">EEVS: Redeploying Discarded Smartphones for Economic and Ecological Drug Molecules Virtual Screening</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742329" >10.1109/TSUSC.2025.3541958</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/10884806" >10.1109/TSUSC.2025.3541958</a></p>
         <p style="margin: 5px 0;"><i>IEEE Transactions on Sustainable Computing (Early Access)</i></p>
     </div>
 </div>
