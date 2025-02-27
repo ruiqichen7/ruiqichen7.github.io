@@ -58,6 +58,7 @@ redirect_from:
   * Multimedia Systems
   * The Journal of Supercomputing
   * PeerJ Computer Science
+  * IEEE Embedded Systems Letters (ESL) 
 
 * ### Conference Reviews
   * International Symposium on Circuits and Systems (ISCAS)

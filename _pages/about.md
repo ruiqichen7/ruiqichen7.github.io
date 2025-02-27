@@ -26,6 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
+- 02/2025: I'm serving as a reviewer for the [IEEE ESL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995)
 - 02/2025: 🎉 Our work ([Vina-Mobile](https://ieeexplore.ieee.org/document/10884806)) is accepted by [TSUSC](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742329)
 - 11/2024: I'm serving as a reviewer for the [ISCAS 2025](https://2025.ieee-iscas.org/)
 - 11/2024: 🎉 Our work (ATE-GCN) is accepted by [DATE 2025](https://www.date-conference.com/)
@@ -35,7 +36,6 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 - 04/2024: 🎉 Our work ([Vina-FPGA-Cluster](https://ieeexplore.ieee.org/document/10500753)) is accepted by [TBioCAS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4156126)
 - 11/2023: I'm serving as a reviewer for the [ISCAS 2024](https://iscas2024.org/)
 - 11/2023: 🎉 Our work is accepted by [DATE 2024](https://ieeexplore.ieee.org/abstract/document/10546640)
-- 07/2023: I'm serving as a reviewer for the [BIOCAS 2023](https://2023.ieee-biocas.org/)
 
 
 📃 Selected Publications
