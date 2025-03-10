@@ -26,6 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
+- 03/2025: 🎉 Our works (FP8-approximate-multipliers, TrackGNN) are accepted by [FCCM 2025](https://www.fccm.org/)
 - 02/2025: I'm serving as a reviewer for the [IEEE ESL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995)
 - 02/2025: 🎉 Our work ([Vina-Mobile](https://ieeexplore.ieee.org/document/10884806)) is accepted by [TSUSC](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742329)
 - 11/2024: I'm serving as a reviewer for the [ISCAS 2025](https://2025.ieee-iscas.org/)

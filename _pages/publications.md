@@ -27,6 +27,16 @@ author_profile: true
 2025
 ======  
 ------
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
+        <span style="background-color: #070; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">FCCM</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">FPGA-based Approximate Multiplier for FP8</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.fccm.org/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>2025 IEEE 33rd Annual International Symposium on Field-Programmable Custom Computing Machines</i></p>
+    </div>
+</div>
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
