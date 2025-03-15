@@ -52,24 +52,26 @@ redirect_from:
 ======
 ------
 * ### Journal Reviews
-  * IEEE Transactions on Computers (TC)
-  * ACM Transactions on Reconfigurable Technology and Systems (TRETS)
-  * IEEE Transactions on Biomedical Circuits and Systems (TBioCAS)
-  * Multimedia Systems
-  * The Journal of Supercomputing
-  * PeerJ Computer Science
-  * IEEE Embedded Systems Letters (ESL) 
+  * IEEE Transactions on Very Large Scale Integration (TVLSI) [2025 - Now]
+  * IEEE Embedded Systems Letters (ESL) [2025 - Now]
+  * The Journal of Supercomputing [2024 - Now]
+  * Multimedia Systems [2024 - Now]
+  * IEEE Transactions on Computers (TC) [2023 - Now]
+  * IEEE Transactions on Biomedical Circuits and Systems (TBioCAS) [2023 - Now]
+  * ACM Transactions on Reconfigurable Technology and Systems (TRETS) [2022 - Now]
+  * PeerJ Computer Science [2021 - Now]
+  
 
 * ### Conference Reviews
-  * International Symposium on Circuits and Systems (ISCAS)
-  * Biomedical Circuits and Systems Conference (BioCAS)
-  * Asia Pacific Conference on Circuits and Systems (APCCAS)
+  * Asia Pacific Conference on Circuits and Systems (APCCAS) [2024 - Now]
+  * International Symposium on Circuits and Systems (ISCAS) [2023 - Now]
+  * Biomedical Circuits and Systems Conference (BioCAS) [2023 - Now]
   
 👥 Memberships
 ======
 ------
-* Member of the Institute of Electrical and Electronics Engineers (IEEE)
-* Member of the Association for Computing Machinery (ACM)
+* Member of the Institute of Electrical and Electronics Engineers (IEEE) [2019 - Now]
+* Member of the Association for Computing Machinery (ACM) [2024 - Now]
 
   
 🏅 Awards

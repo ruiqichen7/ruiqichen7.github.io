@@ -27,6 +27,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ======
 ------
 - 03/2025: 🎉 Our works (FP8-approximate-multipliers, TrackGNN) are accepted by [FCCM 2025](https://www.fccm.org/)
+- 03/2025: I'm serving as a reviewer for the [TVLSI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92)
 - 02/2025: I'm serving as a reviewer for the [IEEE ESL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995)
 - 02/2025: 🎉 Our work ([Vina-Mobile](https://ieeexplore.ieee.org/document/10884806)) is accepted by [TSUSC](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742329)
 - 11/2024: I'm serving as a reviewer for the [ISCAS 2025](https://2025.ieee-iscas.org/)
@@ -35,8 +36,6 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 - 07/2024: I'm serving as a reviewer for the [BIOCAS 2024](https://2024.ieee-biocas.org/)
 - 07/2024: 🎉 Our survey ([FPGA-Based Sparse Matrix Multiplication Accelerators](https://dl.acm.org/doi/10.1145/3687480)) is accepted by [TRETS](https://dl.acm.org/journal/trets)
 - 04/2024: 🎉 Our work ([Vina-FPGA-Cluster](https://ieeexplore.ieee.org/document/10500753)) is accepted by [TBioCAS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4156126)
-- 11/2023: I'm serving as a reviewer for the [ISCAS 2024](https://iscas2024.org/)
-- 11/2023: 🎉 Our work is accepted by [DATE 2024](https://ieeexplore.ieee.org/abstract/document/10546640)
 
 
 📃 Selected Publications
