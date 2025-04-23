@@ -26,6 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
+- 04/2025: 🎉 Our work ([Diffusion accelerator](https://dl.acm.org/journal/tecs)) is accepted by [TECS](https://dl.acm.org/journal/tecs)
 - 03/2025: 🎉 Our works (FP8-approximate-multipliers, TrackGNN) are accepted by [FCCM 2025](https://www.fccm.org/)
 - 03/2025: I'm serving as a reviewer for the [TVLSI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92)
 - 02/2025: I'm serving as a reviewer for the [IEEE ESL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995)

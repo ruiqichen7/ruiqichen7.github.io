@@ -29,6 +29,17 @@ author_profile: true
 ------
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
+        <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TECS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">Diff-Acc: An Efficient FPGA Accelerator for Unconditional Diffusion Models</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/journal/tecs" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>ACM Transactions on Embedded Computing Systems (Early Access)</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
         <span style="background-color: #070; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">FCCM</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
