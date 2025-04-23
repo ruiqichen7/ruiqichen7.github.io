@@ -52,7 +52,7 @@ redirect_from:
 ======
 ------
 * ### Journal Reviews
-  * IEEE Transactions on Very Large Scale Integration (TVLSI) [2025 - Now]
+  * IEEE Transactions on Very Large Scale Integration (VLSI) Systems [2025 - Now]
   * IEEE Embedded Systems Letters (ESL) [2025 - Now]
   * The Journal of Supercomputing [2024 - Now]
   * Multimedia Systems [2024 - Now]
