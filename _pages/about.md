@@ -43,9 +43,9 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ======
 ------
 
-### A Power-Efficient Hardware Implementation of L-Mul [[PDF](../files/paper/l_mul_v1.pdf)]
+### FPGA-based Approximate Multiplier for FP8 [PDF]
 Ruiqi Chen, Yangxintong Lyu, Han Bao, et al<br> 
-arXiv, 2024.
+2025 IEEE 33rd Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)
 
 ### Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism [[PDF](../files/paper/VinaFPGACluster.pdf)]
 Ming Ling, Zhihao Feng, Ruiqi Chen, et al<br> 
