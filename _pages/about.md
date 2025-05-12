@@ -26,6 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
+- 05/2025: 🎉 Our work ([ChaTCL](https://www.eda2.com/iseda/ts15.html)) won the honorable mention paper award by [ISEDA 2025](https://www.eda2.com/iseda/index.html)
 - 04/2025: 🎉 Our work ([Diffusion accelerator](https://dl.acm.org/journal/tecs)) is accepted by [TECS](https://dl.acm.org/journal/tecs)
 - 03/2025: 🎉 Our works (FP8-approximate-multipliers, TrackGNN) are accepted by [FCCM 2025](https://www.fccm.org/)
 - 03/2025: I'm serving as a reviewer for the [TVLSI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92)
@@ -36,7 +37,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 - 07/2024: I'm serving as a reviewer for the [APCCAS 2024](https://apccas2024.org/)
 - 07/2024: I'm serving as a reviewer for the [BIOCAS 2024](https://2024.ieee-biocas.org/)
 - 07/2024: 🎉 Our survey ([FPGA-Based Sparse Matrix Multiplication Accelerators](https://dl.acm.org/doi/10.1145/3687480)) is accepted by [TRETS](https://dl.acm.org/journal/trets)
-- 04/2024: 🎉 Our work ([Vina-FPGA-Cluster](https://ieeexplore.ieee.org/document/10500753)) is accepted by [TBioCAS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4156126)
+
 
 
 📃 Selected Publications
