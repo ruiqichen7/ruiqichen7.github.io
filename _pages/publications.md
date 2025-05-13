@@ -29,6 +29,17 @@ author_profile: true
 ------
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
+        <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TCAD</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">DIF-LUT Pro: An Automated Tool for Simple yet Scalable Approximation of Nonlinear Activation on FPGA</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Early Access)</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
         <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TECS</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
