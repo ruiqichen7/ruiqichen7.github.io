@@ -44,7 +44,7 @@ author_profile: true
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;">Diff-Acc: An Efficient FPGA Accelerator for Unconditional Diffusion Models</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/journal/tecs" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/doi/10.1145/3728470" >10.1145/3728470</a></p>
         <p style="margin: 5px 0;"><i>ACM Transactions on Embedded Computing Systems (Early Access)</i></p>
     </div>
 </div>
