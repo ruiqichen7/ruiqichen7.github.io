@@ -34,7 +34,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 - 02/2025: I'm serving as a reviewer for the [IEEE ESL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995)
 - 02/2025: 🎉 Our work ([Vina-Mobile](https://ieeexplore.ieee.org/document/10884806)) is accepted by [TSUSC](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=7742329)
 - 11/2024: I'm serving as a reviewer for the [ISCAS 2025](https://2025.ieee-iscas.org/)
-- 11/2024: 🎉 Our work (ATE-GCN) is accepted by [DATE 2025](https://www.date-conference.com/)
+- 11/2024: 🎉 Our work ([ATE-GCN](https://ieeexplore.ieee.org/document/10993065)) is accepted by [DATE 2025](https://www.date-conference.com/)
 - 07/2024: I'm serving as a reviewer for the [APCCAS 2024](https://apccas2024.org/)
 - 07/2024: I'm serving as a reviewer for the [BIOCAS 2024](https://2024.ieee-biocas.org/)
 - 07/2024: 🎉 Our survey ([FPGA-Based Sparse Matrix Multiplication Accelerators](https://dl.acm.org/doi/10.1145/3687480)) is accepted by [TRETS](https://dl.acm.org/journal/trets)
