@@ -99,7 +99,7 @@ author_profile: true
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;">ATE-GCN: An FPGA-based Graph Convolutional Network Accelerator with Asymmetrical Ternary Quantization</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://www.date-conference.com/" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/10993065" >10.23919/DATE64628.2025.10993065</a></p>
         <p style="margin: 5px 0;"><i>2025 Design, Automation & Test in Europe Conference & Exhibition</i></p>
     </div>
 </div>
