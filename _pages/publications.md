@@ -33,7 +33,7 @@ author_profile: true
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;">DIF-LUT Pro: An Automated Tool for Simple yet Scalable Approximation of Nonlinear Activation on FPGA</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43" >10.1109/TCAD.2025.3576333</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11023583" >10.1109/TCAD.2025.3576333</a></p>
         <p style="margin: 5px 0;"><i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Early Access)</i></p>
     </div>
 </div>

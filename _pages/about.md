@@ -26,7 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
-- 05/2025: 🎉 Our work (DIF-LUT Pro) is accepted by [TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43)
+- 05/2025: 🎉 Our work ([DIF-LUT Pro](https://ieeexplore.ieee.org/document/11023583)) is accepted by [TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43)
 - 05/2025: 🎉 Our work ([ChaTCL](https://www.eda2.com/iseda/ts15.html)) won the honorable mention paper award by [ISEDA 2025](https://www.eda2.com/iseda/index.html)
 - 04/2025: 🎉 Our work ([Diffusion accelerator](https://dl.acm.org/doi/10.1145/3728470)) is accepted by [TECS](https://dl.acm.org/journal/tecs)
 - 03/2025: 🎉 Our works ([FP8-approximate-multipliers](https://ieeexplore.ieee.org/document/11008970), [TrackGNN](https://ieeexplore.ieee.org/document/11008968)) are accepted by [FCCM 2025](https://www.fccm.org/)
