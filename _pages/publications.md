@@ -29,6 +29,28 @@ author_profile: true
 ------
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
     <div style="flex: 0 0 80px;">
+        <span style="background-color: #070; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">ICCAD</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">	Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA </h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://2025.iccad.com/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>Proceedings of the 44th IEEE/ACM International Conference on Computer-Aided Design</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
+        <span style="background-color: #070; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">ICCAD</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;">	Diff-DiT: Temporal Differential Accelerator for Low-bit Diffusion Transformers on FPGA </h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://2025.iccad.com/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>Proceedings of the 44th IEEE/ACM International Conference on Computer-Aided Design</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+    <div style="flex: 0 0 80px;">
         <span style="background-color: #009; color: #fff; padding: 3px 8px; font-size: 14px; font-weight: bold; border-radius: 3px; display: inline-block;">TCAD</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
