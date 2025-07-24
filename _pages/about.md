@@ -26,7 +26,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
-- - 07/2025: I'm serving as a reviewer for the [BIOCAS 2025](https://2025.ieee-biocas.org/)
+- 07/2025: I'm serving as a reviewer for the [BIOCAS 2025](https://2025.ieee-biocas.org/)
 - 07/2025: I'm serving as a reviewer for the [TECS](https://dl.acm.org/journal/tecs)
 - 07/2025: 🎉 Our work ([FASE]()) has been accepted by [TVLSI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92)
 - 06/2025: 🎉 Our works ([Diff-DiT]() & [Hummingbird](https://arxiv.org/abs/2507.03308)) have been accepted by [ICCAD 2025](https://2025.iccad.com/)

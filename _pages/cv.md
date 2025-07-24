@@ -78,6 +78,7 @@ redirect_from:
 🏅 Awards
 ======
 ------
+* 2025 Honorable Mention Paper Award, IEEE International Symposium of Electronics Design Automation (ISEDA)
 * 2019 Second Prize in the 3rd National College Student Integrated Circuit Innovation and Entrepreneurship Competition
 * 2018 Second Prize in the National Embedded Chip and System Design Competition 
 * 2018 Second Prize in the 2nd National College Student Integrated Circuit Innovation and Entrepreneurship Competition
