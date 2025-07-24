@@ -26,7 +26,10 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 📰 Latest News 
 ======
 ------
-- 06/2025: 🎉 Our works ([Diff-DiT]() & [Hummingbird]()) have been accepted by [ICCAD 2025](https://2025.iccad.com/)
+- - 07/2025: I'm serving as a reviewer for the [BIOCAS 2025](https://2025.ieee-biocas.org/)
+- 07/2025: I'm serving as a reviewer for the [TECS](https://dl.acm.org/journal/tecs)
+- 07/2025: 🎉 Our work ([FASE]()) has been accepted by [TVLSI](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92)
+- 06/2025: 🎉 Our works ([Diff-DiT]() & [Hummingbird](https://arxiv.org/abs/2507.03308)) have been accepted by [ICCAD 2025](https://2025.iccad.com/)
 - 05/2025: 🎉 Our work ([DIF-LUT Pro](https://ieeexplore.ieee.org/document/11023583)) has been accepted by [TCAD](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43)
 - 05/2025: 🎉 Our work ([ChaTCL](https://www.eda2.com/iseda/ts15.html)) won the honorable mention paper award by [ISEDA 2025](https://www.eda2.com/iseda/index.html)
 - 04/2025: 🎉 Our work ([Diffusion accelerator](https://dl.acm.org/doi/10.1145/3728470)) has been accepted by [TECS](https://dl.acm.org/journal/tecs)
