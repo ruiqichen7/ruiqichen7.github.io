@@ -43,7 +43,7 @@ redirect_from:
   * Verilog, VHDL, HLS, Python, Java, and C/C++
 
 * ### EDA Software
-  * Xilinx Vivado, Xilinx Vitis, Altera Quartus, and Modelsim
+  * AMD (Xilinx) Vivado, AMD (Xilinx) Vitis, Altera Quartus, and Modelsim
 
 * ### Embedded Prototyping
   * Android, Arduino, STM32 MCU, Raspberry Pi, Jetson
