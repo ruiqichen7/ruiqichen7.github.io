@@ -21,7 +21,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 🛠️ Skills
 ======
 ------
-* ### Programming
+* ###  <h3 style="margin: 0;font-style: normal;font-weight: 400;">Programming</h3>
   * Verilog, VHDL, HLS, Python, Java, and C/C++
 
 * ### EDA Software
