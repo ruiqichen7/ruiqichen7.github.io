@@ -1,0 +1,16 @@
+- title: "About"
+  href: "/about/"
+
+- title: "Publications"
+  href: "/publications/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Representative"
+  href: "/representative/"
+  subcategories:
+    - subtitle: "Approximate FP8"
+      subhref: "/representative/FP8/"
+    - subtitle: "Vina Hardware Acceleration"
+      subhref: "/representative/Vina/"

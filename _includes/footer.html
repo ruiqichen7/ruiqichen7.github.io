@@ -1,0 +1,82 @@
+<footer class="site-footer">
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <!-- 第一列：站点名和邮箱 -->
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li><strong>{{ site.title }}</strong></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+
+      <!-- 第二列：站点描述 -->
+      <div class="footer-col footer-col-2">
+        <p class="text">
+          {{ site.description }}
+        </p>
+      </div>
+
+      <!-- 第三列：社交链接 -->
+      <div class="footer-col footer-col-3">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            <a href="https://github.com/{{ site.github_username }}">
+              <span class="icon icon--github">
+                <!-- 你的 github SVG 保留 -->
+              </span>
+              <span class="username">{{ site.github_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+              <span class="icon icon--twitter">
+                <!-- 你的 twitter SVG 保留 -->
+              </span>
+              <span class="username">{{ site.twitter_username }}</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.google_scholar %}
+          <li>
+            <a href="{{ site.google_scholar }}" target="_blank">
+              <span class="icon">
+                <i class="fa-brands fa-google"></i>
+              </span>
+              <span class="username">Google Scholar</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.orcid %}
+          <li>
+            <a href="{{ site.orcid }}" target="_blank">
+              <span class="icon">
+                <i class="fa-brands fa-orcid"></i>
+              </span>
+              <span class="username">ORCID</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.researchgate %}
+          <li>
+            <a href="{{ site.researchgate }}" target="_blank">
+              <span class="icon">
+                <i class="fa-brands fa-researchgate"></i>
+              </span>
+              <span class="username">ResearchGate</span>
+            </a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</footer>

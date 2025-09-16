@@ -1,0 +1,56 @@
+/* 调整页脚三列宽度 */
+.footer-col-wrapper {
+  display: flex;        /* 用 flex 布局替代 float */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-col {
+  float: none !important;   /* 取消默认浮动 */
+  margin-bottom: 20px;
+}
+
+/* 左列：站点名+邮箱 */
+.footer-col-1 {
+  flex: 1 1 25%;   /* 占大约 25% */
+}
+
+/* 中列：描述 */
+.footer-col-2 {
+  flex: 1 1 45%;   /* 占大约 45% */
+  text-align: left;
+}
+
+/* 右列：社交图标 */
+.footer-col-3 {
+  flex: 1 1 25%;   /* 占大约 25%，留足空间 */
+  display: flex;
+  justify-content: flex-end;  /* 整体靠右 */
+}
+
+/* 让社交图标横向或纵向都美观 */
+.footer-col-3 .social-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.footer-col-3 .social-media-list li {
+  display: flex;
+  align-items: center;   /* 垂直居中对齐 */
+  justify-content: flex-start !important;
+  margin: 4px 0;
+  gap: 6px;  /* 图标和文字之间留点间距 */
+}
+
+.footer-col-3 .social-media-list .icon {
+  display: inline-flex;
+  align-items: left;
+  justify-content: left;
+  width: 20px;   /* 固定宽度保证对齐 */
+}
+
+.footer-col-3 .social-media-list .username {
+  display: inline-block;
+}
