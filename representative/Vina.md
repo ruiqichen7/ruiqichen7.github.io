@@ -43,11 +43,7 @@ by leveraging
 ### Vina-FPGA
 
 <div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='/images/representative/Vina/vinafpgacluster.png' alt="Research" width="80%">
-  </div>
-
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box'><div class='paper-box-image'><div><img src='/images/representative/Vina/vinafpgacluster.png' alt="Research" width="80%"></div></div> <div class='paper-box-text' markdown="1">
 
 **Highlights**
 
@@ -56,8 +52,7 @@ by leveraging
 - Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines  
 - A novel parallel AG module design  
 
-  </div> <!-- ✅ 在这里关闭，不要再多一个 -->
-</div>
+  </div> </div>
 
 | Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
 |-----------------------|-----|-----------|------------|------------------|
@@ -67,7 +62,7 @@ by leveraging
 
 **Publications**
 
-<div class="pub-card" markdown="1">
+  <div class="pub-card" markdown="1">
 
 - **Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline**  
   *FITEE, 2025*  
@@ -78,5 +73,6 @@ by leveraging
 - **[Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism](https://ieeexplore.ieee.org/document/9940230)**  
   *TVLSI, 2023*  
 
+  </div>
 </div>
 
