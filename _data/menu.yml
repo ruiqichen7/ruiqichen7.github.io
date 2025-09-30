@@ -12,5 +12,7 @@
   subcategories:
     - subtitle: "Approximate FP8"
       subhref: "/representative/FP8/"
+    - subtitle: "GNN Acceleration"       
+      subhref: "/representative/Graph-OPU/"
     - subtitle: "Vina Hardware Acceleration"
       subhref: "/representative/Vina/"
