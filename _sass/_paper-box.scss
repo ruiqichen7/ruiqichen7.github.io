@@ -1,0 +1,30 @@
+.paper-box {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  background: #fff;
+}
+
+.paper-box-image {
+  flex: 0 0 200px; /* 固定图像宽度 */
+  margin-right: 20px;
+}
+
+.paper-box-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.paper-box-text {
+  flex: 1;
+}
+
+.paper-box-text h2,
+.paper-box-text h3,
+.paper-box-text strong {
+  margin-top: 0;
+}
