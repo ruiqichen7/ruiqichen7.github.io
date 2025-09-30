@@ -4,97 +4,128 @@ title: Vina Hardware Acceleration
 permalink: /representative/Vina/
 ---
 
-AutoDock Vina is usually recommended as the first-line tool in the implementation of molecular docking due to its docking speed and accuracy
+## What is docking?
 
 
-# 🚀 项目名称
-这里是项目的简要介绍。  
-可以用 **Markdown** 普通语法写段落、加粗、斜体、[链接](#)。
+<p style="font-size:20px;">The goal of ligand—protein docking is to predict the predominant binding mode(s) of a ligand with a protein of known three-dimensional structure.</p>
 
----
+<div style="text-align:center;">
+  <img src="/images/representative/vina/docking.gif" alt="demo" width="400">
+  <p><em>Docking demo</em></p>
+</div>
 
-## 📑 项目概览
-<div class="paper-box">
-  <div class="paper-box-image">
-    <img src="/images/project/overview.png" alt="Project Overview" width="100%">
+
+## Why Vina?
+<p style="font-size:20px;">AutoDock Vina is usually recommended as the first-line tool in the implementation of molecular docking due to its docking speed and accuracy</p>
+
+![](/images/representative/vina/vinarank.png)
+
+<p style="font-size:20px; line-height:1.6;">
+Vina is painfully 
+<span style="color:red; font-weight:bold;">time-consuming</span> 
+due to the massive combinatorial possibilities of multi-dimensional data. 
+Previous research has managed to reduce the inference time from 
+<span style="color:red; font-weight:bold;">475 years</span> 
+to 
+<span style="color:red; font-weight:bold;">2 weeks</span> 
+by leveraging 
+<span style="color:red; font-weight:bold;">10,000 CPUs</span>.
+</p>
+
+
+## The efforts we do for accelerating Vina
+
+<div style="text-align:center;">
+  <img src="/images/representative/vina/efforts.png" alt="efforts" width="400">
+  <p><em>Docking demo</em></p>
+</div>
+
+### Vina-FPGA
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='/images/representative/vina/vinafpgacluster.png' alt="Research" width="80%">
+    </div>
   </div>
-  <div class="paper-box-text" markdown="1">
 
-### ✨ 核心目标
-- 提升性能  
-- 降低能耗  
-- 增强可扩展性  
+  <div class='paper-box-text' markdown="1">
 
-### 🔍 方法亮点
-- FPGA 加速  
-- 模块化设计  
-- 软硬件协同  
+**Highlights**
+
+- 1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism
+- Hybrid fixed-point quantization  
+- Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines
+- A novel parallel AG module design
+  </div>
+</div>
+
+| Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
+|-------------|----------|-----------|--------|--------|
+| Latency | 182.28s    | 48.40s      | 14.50s     | 6.67s     |
+| Speed up | 1×    | 3.7×      | 12.6×     | 27.33×     |
+| Power | 47.34W    | 4.70W      | 4.70W  | 19.48W  |
+
+**Publications**
+
+<div class="pub-card" markdown="1">
+- **Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline**  
+  *FITEE, 2025*
+- **[Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism](https://ieeexplore.ieee.org/abstract/document/10500753)**  
+  *TBioCAS, 2024*
+- **[Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism](https://ieeexplore.ieee.org/document/9940230)**  
+  *TVLSI, 2023*
+</div>
+
+### Vina-GPU
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='/images/representative/vina/vinagpu.png' alt="Research" width="80%">
+    </div>
+  </div>
+
+  <div class='paper-box-text' markdown="1">
+
+**Highlights**
+
+- 1st OpenCL-based GPU implementation for Vina  
+- By setting the width of over multi-threads, reducing the search depth but without missing favorable poses in the search space  
+- Considerable accuracy and speedup ratio (**191.68×**)  
 
   </div>
 </div>
 
----
+**Publications**
 
-## 🖼️ 系统架构
-<div class="img-center">
-  <img src="/images/project/architecture.png" alt="System Architecture" width="80%">
-  <p class="img-caption">图 1: 系统架构图</p>
+<div class="pub-card" markdown="1">
+- **[Accelerating AutoDock Vina with GPUs](https://www.mdpi.com/1420-3049/27/9/3041)**  
+  *Molecules, 2022*
 </div>
 
----
+### Vina-Phone
 
-## 🔧 技术细节
-<div class="grid-box">
-  <div class="grid-item" markdown="1">
-
-  ![](/images/project/moduleA.png)  
-  ### 模块 A - 数据预处理  
-  负责输入数据清洗与格式化，保证后续计算的高效性。
-
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src='/images/representative/vina/vinamobile.png' alt="Research" width="80%">
+    </div>
   </div>
 
-  <div class="grid-item" markdown="1">
+  <div class='paper-box-text' markdown="1">
 
-  ![](/images/project/moduleB.png)  
-  ### 模块 B - 核心计算  
-  基于 FPGA 的并行计算核心，大幅度提升处理速度。
-  </div>
+**Highlights**
 
-  <div class="grid-item" markdown="1">
-
-  ![](/images/project/moduleC.png)  
-  ### 模块 C - 结果输出  
-  将计算结果进行聚合，并传输到上层应用。
+- Leveraging the computational resource of discarded smartphones. 
+- Providing a cost-effective method to lower the barrier of drug discovery.
+- The PCSA algorithm in this project to ensure different thermal dissipation requirement while accelerating virtual screening.
 
   </div>
 </div>
 
----
-
-## 📊 实验结果
-
-| 测试项       | CPU 耗时 | FPGA 耗时 | 加速比 |
-|--------------|----------|-----------|--------|
-| Benchmark 1  | 120ms    | 15ms      | 8x     |
-| Benchmark 2  | 300ms    | 28ms      | 10.7x  |
-
-<div class="img-center">
-  <img src="/images/project/performance.png" alt="Performance Results" width="70%">
-  <p class="img-caption">图 2: 性能对比图</p>
+**Publications**
+<div class="pub-card" markdown="1">
+- **[EEVS: Redeploying Discarded Smartphones for an Economical and Ecological Drug Molecules Virtual Screening](https://ieeexplore.ieee.org/abstract/document/10884806)**  
+  *TSC, 2024*
 </div>
-
----
-
-## 📦 项目资源
-<div class="resource-links">
-  <a href="/files/project-paper.pdf">📘 论文 PDF</a>
-  <a href="https://github.com/yourrepo/project">💻 GitHub 代码</a>
-  <a href="https://www.youtube.com/watch?v=xxxx">🎥 演示视频</a>
-</div>
-
----
-
-## 🙌 致谢
-感谢团队成员的努力，以及项目资助单位的支持。
-
-

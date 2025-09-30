@@ -42,7 +42,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">FASE: An FPGA-Based Accelerator for Lightweight Sample Entropy with Monte Carlo Sampling</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://doi.org/10.1109/TVLSI.2025.3593020" >10.1109/TVLSI.2025.3593020</a></p>
-        <p style="margin: 5px 0;"><i>IEEE Transactions on Very Large Scale Integration Systems (Early Access)</i></p>
+        <p style="margin: 5px 0;"><i>IEEE Transactions on Very Large Scale Integration Systems, 2025, 33(10): 2883-2896.</i></p>
     </div>
 </div>
 
