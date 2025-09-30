@@ -58,7 +58,6 @@ AutoDock Vina is usually recommended as the first-line tool in the implementatio
   ![](/images/project/moduleB.png)  
   ### 模块 B - 核心计算  
   基于 FPGA 的并行计算核心，大幅度提升处理速度。
-
   </div>
 
   <div class="grid-item" markdown="1">
