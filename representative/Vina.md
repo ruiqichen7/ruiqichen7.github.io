@@ -10,7 +10,7 @@ permalink: /representative/Vina/
 <p style="font-size:20px;">The goal of ligand—protein docking is to predict the predominant binding mode(s) of a ligand with a protein of known three-dimensional structure.</p>
 
 <div class="img-center">
-  <img src="/images/representative/vina/docking.gif" alt="demo" width="400">
+  <img src="/images/representative/Vina/docking.gif" alt="demo" width="400">
   <p><em>Docking demo</em></p>
 </div>
 
@@ -18,7 +18,7 @@ permalink: /representative/Vina/
 ## Why Vina?
 <p style="font-size:20px;">AutoDock Vina is usually recommended as the first-line tool in the implementation of molecular docking due to its docking speed and accuracy</p>
 
-![](/images/representative/vina/vinarank.png)
+![](/images/representative/Vina/vinarank.png)
 
 <p style="font-size:20px; line-height:1.6;">
 Vina is painfully 
@@ -36,7 +36,7 @@ by leveraging
 ## The efforts we do for accelerating Vina
 
 <div class="img-center">
-  <img src="/images/representative/vina/efforts.png" alt="efforts" width="400">
+  <img src="/images/representative/Vina/efforts.png" alt="efforts" width="400">
   <p><em>Roadmap</em></p>
 </div>
 
@@ -44,7 +44,7 @@ by leveraging
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <img src='/images/representative/vina/vinafpgacluster.png' alt="Research" width="80%">
+    <img src='/images/representative/Vina/vinafpgacluster.png' alt="Research" width="80%">
   </div>
 
   <div class='paper-box-text' markdown="1">
