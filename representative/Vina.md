@@ -46,21 +46,27 @@ AutoDock Vina is usually recommended as the first-line tool in the implementatio
 ## 🔧 技术细节
 <div class="grid-box">
   <div class="grid-item" markdown="1">
+
   ![](/images/project/moduleA.png)  
-  #### 模块 A - 数据预处理  
+  ### 模块 A - 数据预处理  
   负责输入数据清洗与格式化，保证后续计算的高效性。
+
   </div>
 
   <div class="grid-item" markdown="1">
+
   ![](/images/project/moduleB.png)  
-  #### 模块 B - 核心计算  
+  ### 模块 B - 核心计算  
   基于 FPGA 的并行计算核心，大幅度提升处理速度。
+
   </div>
 
   <div class="grid-item" markdown="1">
+
   ![](/images/project/moduleC.png)  
-  #### 模块 C - 结果输出  
+  ### 模块 C - 结果输出  
   将计算结果进行聚合，并传输到上层应用。
+
   </div>
 </div>
 
