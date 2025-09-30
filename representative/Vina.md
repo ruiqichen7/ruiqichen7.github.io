@@ -37,7 +37,7 @@ by leveraging
 
 <div class="img-center">
   <img src="/images/representative/vina/efforts.png" alt="efforts" width="400">
-  <p><em>Docking demo</em></p>
+  <p><em>Roadmap</em></p>
 </div>
 
 ### Vina-FPGA
@@ -79,62 +79,3 @@ by leveraging
   *TVLSI, 2023*  
 
 </div>
-
----
-
-### Vina-GPU
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='/images/representative/vina/vinagpu.png' alt="Research" width="80%">
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Highlights**
-
-- 1st OpenCL-based GPU implementation for Vina  
-- By setting the width of over multi-threads, reducing the search depth but without missing favorable poses in the search space  
-- Considerable accuracy and speedup ratio (**191.68×**)  
-
-  </div>
-</div>
-
-**Publications**
-
-<div class="pub-card" markdown="1">
-
-- **[Accelerating AutoDock Vina with GPUs](https://www.mdpi.com/1420-3049/27/9/3041)**  
-  *Molecules, 2022*  
-
-</div>
-
----
-
-### Vina-Phone
-
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='/images/representative/vina/vinamobile.png' alt="Research" width="80%">
-  </div>
-
-  <div class='paper-box-text' markdown="1">
-
-**Highlights**
-
-- Leveraging the computational resource of discarded smartphones  
-- Providing a cost-effective method to lower the barrier of drug discovery  
-- The PCSA algorithm in this project ensures different thermal dissipation requirements while accelerating virtual screening  
-
-  </div>
-</div>
-
-**Publications**
-
-<div class="pub-card" markdown="1">
-
-- **[EEVS: Redeploying Discarded Smartphones for an Economical and Ecological Drug Molecules Virtual Screening](https://ieeexplore.ieee.org/abstract/document/10884806)**  
-  *TSC, 2024*  
-
-</div>
-
