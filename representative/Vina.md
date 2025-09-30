@@ -44,8 +44,6 @@ by leveraging
 ### Vina-FPGA
 
 <div class='paper-box'>
-
-  <!-- 图 + Highlights -->
   <div class='paper-box-image'>
     <img src='/images/representative/Vina/vinafpgacluster.png' alt="Research" width="80%">
   </div>
@@ -64,7 +62,6 @@ by leveraging
 
 ---
 
-<!-- 表格 -->
 | Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
 |-----------------------|-----|-----------|------------|------------------|
 | Latency               | 182.28s | 48.40s | 14.50s | 6.67s |
@@ -73,7 +70,6 @@ by leveraging
 
 ---
 
-<!-- Publications -->
 **Publications**
 
 <div class="pub-card" markdown="1">
