@@ -43,38 +43,40 @@ by leveraging
 
 ### Vina-FPGA
 
-<div class="project-block">
+<div class='paper-box'>
 
-  <!-- 高亮 -->
-  <div class="paper-box">
-    <div class="paper-box-image">
-      <img src="/images/representative/Vina/vinafpgacluster.png" alt="Research" width="80%">
-    </div>
-    <div class="paper-box-text" markdown="1">
+  <!-- 图 + Highlights -->
+  <div class='paper-box-image'>
+    <img src='/images/representative/Vina/vinafpgacluster.png' alt="Research" width="80%">
+  </div>
+
+  <div class='paper-box-text' markdown="1">
 
 **Highlights**
 
-- 1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism
+- 1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism  
 - Hybrid fixed-point quantization  
 - Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines  
 - A novel parallel AG module design  
 
-    </div>
   </div>
+</div>
 
-  <!-- 表格 -->
-  <div class="content-card" markdown="1">
+---
 
+<!-- 表格 -->
 | Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
-|-----------------------|-----|-----------|------------|-------------------|
+|-----------------------|-----|-----------|------------|------------------|
 | Latency               | 182.28s | 48.40s | 14.50s | 6.67s |
 | Speed up              | 1× | 3.7× | 12.6× | 27.33× |
 | Power                 | 47.34W | 4.70W | 4.70W | 19.48W |
 
-  </div>
+---
 
-  <!-- Publications -->
-  <div class="pub-card" markdown="1">
+<!-- Publications -->
+**Publications**
+
+<div class="pub-card" markdown="1">
 
 - **Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline**  
   *FITEE, 2025*  
@@ -85,8 +87,5 @@ by leveraging
 - **[Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism](https://ieeexplore.ieee.org/document/9940230)**  
   *TVLSI, 2023*  
 
-  </div>
-
 </div>
-
 
