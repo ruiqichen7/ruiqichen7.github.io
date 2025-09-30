@@ -45,6 +45,7 @@ by leveraging
 
 <div class="project-block">
 
+  <!-- 高亮 -->
   <div class="paper-box">
     <div class="paper-box-image">
       <img src="/images/representative/Vina/vinafpgacluster.png" alt="Research" width="80%">
@@ -54,14 +55,14 @@ by leveraging
 **Highlights**
 
 - 1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism
-- Hybrid fixed-point quantization
-- Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines
-- A novel parallel AG module design
+- Hybrid fixed-point quantization  
+- Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines  
+- A novel parallel AG module design  
 
     </div>
   </div>
 
-  <!-- table -->
+  <!-- 表格 -->
   <div class="content-card" markdown="1">
 
 | Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
@@ -76,13 +77,16 @@ by leveraging
   <div class="pub-card" markdown="1">
 
 - **Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline**  
-  *FITEE, 2025*
+  *FITEE, 2025*  
+
 - **[Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism](https://ieeexplore.ieee.org/abstract/document/10500753)**  
-  *TBioCAS, 2024*
+  *TBioCAS, 2024*  
+
 - **[Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism](https://ieeexplore.ieee.org/document/9940230)**  
-  *TVLSI, 2023*
+  *TVLSI, 2023*  
 
   </div>
 
 </div>
+
 
