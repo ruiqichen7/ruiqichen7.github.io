@@ -12,3 +12,9 @@
   color: #666;
   margin-top: 6px;
 }
+.img-fluid {
+  max-width: 100%;   /* 宽度不会超过容器 */
+  height: auto;      /* 保持纵横比 */
+  display: block;
+  margin: 0 auto;    /* 居中 */
+}

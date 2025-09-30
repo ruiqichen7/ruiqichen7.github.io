@@ -18,7 +18,10 @@ permalink: /representative/Vina/
 ## Why Vina?
 <p style="font-size:20px;">AutoDock Vina is usually recommended as the first-line tool in the implementation of molecular docking due to its docking speed and accuracy</p>
 
-![](/images/representative/Vina/vinarank.png)
+<div class="img-center">
+  <img src="/images/representative/Vina/vinarank.png" alt="efforts" width="img-fluid">
+  <p><em>The rank of molecular docking algorithms</em></p>
+</div>
 
 <p style="font-size:20px; line-height:1.6;">
 Vina is painfully 
@@ -36,79 +39,73 @@ by leveraging
 ## The efforts we do for accelerating Vina
 
 <div class="img-center">
-  <img src="/images/representative/Vina/efforts.png" alt="efforts" width="400">
+  <img src="/images/representative/Vina/efforts.png" alt="efforts" width="img-fluid">
   <p><em>Roadmap</em></p>
 </div>
 
 
-<h3>Vina-FPGA</h3>
+### Vina-FPGA
 
+<!-- ✅ 第一个框：Highlights -->
 <div class="paper-box">
-
-  <!-- Highlights -->
-  <div class="paper-section">
-    <div class="paper-box-image">
-      <img src="/images/representative/Vina/vinafpgacluster.png" alt="Research">
-    </div>
-    <div class="paper-box-text">
-      <h4>Highlights</h4>
-      <ul>
-        <li>1st FPGA/FPGA cluster accelerator with a significant speedup...</li>
-        <li>Hybrid fixed-point quantization</li>
-        <li>Parallel calculation of inter-molecular energy...</li>
-        <li>A novel parallel AG module design</li>
-      </ul>
-    </div>
+  <div class="paper-box-image">
+    <img src="/images/representative/Vina/vinafpgacluster.png" alt="Research">
   </div>
-
-  <!-- Table -->
-  <div class="paper-section">
-    <h4>Performance Metrics</h4>
-    <table class="perf-table">
-      <thead>
-        <tr>
-          <th>Metric</th>
-          <th>CPU</th>
-          <th>Vina-FPGA</th>
-          <th>Vina-FPGA2</th>
-          <th>Vina-FPGA-Cluster</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Latency</td>
-          <td>182.28s</td>
-          <td>48.40s</td>
-          <td>14.50s</td>
-          <td>6.67s</td>
-        </tr>
-        <tr>
-          <td>Speed up</td>
-          <td>1×</td>
-          <td>3.7×</td>
-          <td>12.6×</td>
-          <td>27.33×</td>
-        </tr>
-        <tr>
-          <td>Power</td>
-          <td>47.34W</td>
-          <td>4.70W</td>
-          <td>4.70W</td>
-          <td>19.48W</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Publications -->
-  <div class="paper-section">
-    <h4>Publications</h4>
+  <div class="paper-box-text">
+    <h4>Highlights</h4>
     <ul>
-      <li><b>Vina-FPGA 2.0: A High-Level Parallelized...</b><br><i>FITEE, 2025</i></li>
-      <li><b><a href="https://ieeexplore.ieee.org/abstract/document/10500753" target="_blank">Vina-FPGA-Cluster...</a></b><br><i>TBioCAS, 2024</i></li>
-      <li><b><a href="https://ieeexplore.ieee.org/document/9940230" target="_blank">Vina-FPGA...</a></b><br><i>TVLSI, 2023</i></li>
+      <li>1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism</li>
+      <li>Hybrid fixed-point quantization</li>
+      <li>Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines</li>
+      <li>A novel parallel AG module design</li>
     </ul>
   </div>
-
 </div>
+
+<!-- ✅ 第二部分：表格（直接展示，不用额外的 box） -->
+<table class="perf-table">
+  <thead>
+    <tr>
+      <th>Metric of performance</th>
+      <th>CPU</th>
+      <th>Vina-FPGA</th>
+      <th>Vina-FPGA2</th>
+      <th>Vina-FPGA-Cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Latency</td>
+      <td>182.28s</td>
+      <td>48.40s</td>
+      <td>14.50s</td>
+      <td>6.67s</td>
+    </tr>
+    <tr>
+      <td>Speed up</td>
+      <td>1×</td>
+      <td>3.7×</td>
+      <td>12.6×</td>
+      <td>27.33×</td>
+    </tr>
+    <tr>
+      <td>Power</td>
+      <td>47.34W</td>
+      <td>4.70W</td>
+      <td>4.70W</td>
+      <td>19.48W</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ✅ 第三个框：Publications -->
+<div class="paper-section">
+  <h4>Publications</h4>
+  <ul>
+    <li><strong>Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline</strong><br><em>FITEE, 2025</em></li>
+    <li><strong><a href="https://ieeexplore.ieee.org/abstract/document/10500753">Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism</a></strong><br><em>TBioCAS, 2024</em></li>
+    <li><strong><a href="https://ieeexplore.ieee.org/document/9940230">Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism</a></strong><br><em>TVLSI, 2023</em></li>
+  </ul>
+</div>
+
 
