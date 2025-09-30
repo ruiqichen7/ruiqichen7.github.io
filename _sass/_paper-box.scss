@@ -29,13 +29,34 @@
   margin-top: 0;
 }
 
-.paper-box {
-  display: flex;
-  flex-wrap: wrap;    /* ⭐ 允许换行 */
-  gap: 20px;
-}
-
 .paper-box-text {
   flex: 1 1 300px;    /* ⭐ 最小宽度 */
   min-width: 280px;
+}
+
+.paper-section {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+
+.perf-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.perf-table th, .perf-table td {
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.perf-table th {
+  background: #f9f9f9;
+  font-weight: bold;
 }

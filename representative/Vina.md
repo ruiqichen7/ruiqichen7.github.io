@@ -41,47 +41,74 @@ by leveraging
 </div>
 
 
-### Vina-FPGA
+<h3>Vina-FPGA</h3>
 
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <img src='/images/representative/Vina/vinafpgacluster.png' alt="Research" width="80%">
+<div class="paper-box">
+
+  <!-- Highlights -->
+  <div class="paper-section">
+    <div class="paper-box-image">
+      <img src="/images/representative/Vina/vinafpgacluster.png" alt="Research">
+    </div>
+    <div class="paper-box-text">
+      <h4>Highlights</h4>
+      <ul>
+        <li>1st FPGA/FPGA cluster accelerator with a significant speedup...</li>
+        <li>Hybrid fixed-point quantization</li>
+        <li>Parallel calculation of inter-molecular energy...</li>
+        <li>A novel parallel AG module design</li>
+      </ul>
+    </div>
   </div>
 
-  <div class='paper-box-text' markdown="1">
-
-**Highlights**
-
-- 1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism  
-- Hybrid fixed-point quantization  
-- Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines  
-- A novel parallel AG module design  
-
+  <!-- Table -->
+  <div class="paper-section">
+    <h4>Performance Metrics</h4>
+    <table class="perf-table">
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>CPU</th>
+          <th>Vina-FPGA</th>
+          <th>Vina-FPGA2</th>
+          <th>Vina-FPGA-Cluster</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Latency</td>
+          <td>182.28s</td>
+          <td>48.40s</td>
+          <td>14.50s</td>
+          <td>6.67s</td>
+        </tr>
+        <tr>
+          <td>Speed up</td>
+          <td>1×</td>
+          <td>3.7×</td>
+          <td>12.6×</td>
+          <td>27.33×</td>
+        </tr>
+        <tr>
+          <td>Power</td>
+          <td>47.34W</td>
+          <td>4.70W</td>
+          <td>4.70W</td>
+          <td>19.48W</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-</div>
 
----
-
-| Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
-|-----------------------|-----|-----------|------------|------------------|
-| Latency               | 182.28s | 48.40s | 14.50s | 6.67s |
-| Speed up              | 1× | 3.7× | 12.6× | 27.33× |
-| Power                 | 47.34W | 4.70W | 4.70W | 19.48W |
-
----
-
-**Publications**
-
-<div class="pub-card" markdown="1">
-
-- **Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline**  
-  *FITEE, 2025*  
-
-- **[Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism](https://ieeexplore.ieee.org/abstract/document/10500753)**  
-  *TBioCAS, 2024*  
-
-- **[Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism](https://ieeexplore.ieee.org/document/9940230)**  
-  *TVLSI, 2023*  
+  <!-- Publications -->
+  <div class="paper-section">
+    <h4>Publications</h4>
+    <ul>
+      <li><b>Vina-FPGA 2.0: A High-Level Parallelized...</b><br><i>FITEE, 2025</i></li>
+      <li><b><a href="https://ieeexplore.ieee.org/abstract/document/10500753" target="_blank">Vina-FPGA-Cluster...</a></b><br><i>TBioCAS, 2024</i></li>
+      <li><b><a href="https://ieeexplore.ieee.org/document/9940230" target="_blank">Vina-FPGA...</a></b><br><i>TVLSI, 2023</i></li>
+    </ul>
+  </div>
 
 </div>
 
