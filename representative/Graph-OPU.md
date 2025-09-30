@@ -1,6 +1,6 @@
 ---
 layout: page
-title: GNN Acceleration"
+title: GNN Acceleration
 permalink: /representative/Graph-OPU/
 ---
 
