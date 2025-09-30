@@ -44,9 +44,7 @@ by leveraging
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
-      <img src='/images/representative/vina/vinafpgacluster.png' alt="Research" width="80%">
-    </div>
+    <img src='/images/representative/vina/vinafpgacluster.png' alt="Research" width="80%">
   </div>
 
   <div class='paper-box-text' markdown="1">
@@ -55,35 +53,40 @@ by leveraging
 
 - 1st FPGA/FPGA cluster accelerator with a significant speedup for AutoDock Vina with fixed-point quantization and low-level parallelism
 - Hybrid fixed-point quantization  
-- Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines
-- A novel parallel AG module design
+- Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines  
+- A novel parallel AG module design  
+
   </div>
 </div>
 
 | Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
-|-------------|----------|-----------|--------|--------|
-| Latency | 182.28s    | 48.40s      | 14.50s     | 6.67s     |
-| Speed up | 1×    | 3.7×      | 12.6×     | 27.33×     |
-| Power | 47.34W    | 4.70W      | 4.70W  | 19.48W  |
+|-----------------------|-----|-----------|------------|------------------|
+| Latency               | 182.28s | 48.40s | 14.50s | 6.67s |
+| Speed up              | 1× | 3.7× | 12.6× | 27.33× |
+| Power                 | 47.34W | 4.70W | 4.70W | 19.48W |
 
 **Publications**
 
 <div class="pub-card" markdown="1">
+
 - **Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline**  
-  *FITEE, 2025*
+  *FITEE, 2025*  
+
 - **[Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism](https://ieeexplore.ieee.org/abstract/document/10500753)**  
-  *TBioCAS, 2024*
+  *TBioCAS, 2024*  
+
 - **[Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism](https://ieeexplore.ieee.org/document/9940230)**  
-  *TVLSI, 2023*
+  *TVLSI, 2023*  
+
 </div>
+
+---
 
 ### Vina-GPU
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
-      <img src='/images/representative/vina/vinagpu.png' alt="Research" width="80%">
-    </div>
+    <img src='/images/representative/vina/vinagpu.png' alt="Research" width="80%">
   </div>
 
   <div class='paper-box-text' markdown="1">
@@ -100,32 +103,38 @@ by leveraging
 **Publications**
 
 <div class="pub-card" markdown="1">
+
 - **[Accelerating AutoDock Vina with GPUs](https://www.mdpi.com/1420-3049/27/9/3041)**  
-  *Molecules, 2022*
+  *Molecules, 2022*  
+
 </div>
+
+---
 
 ### Vina-Phone
 
 <div class='paper-box'>
   <div class='paper-box-image'>
-    <div>
-      <img src='/images/representative/vina/vinamobile.png' alt="Research" width="80%">
-    </div>
+    <img src='/images/representative/vina/vinamobile.png' alt="Research" width="80%">
   </div>
 
   <div class='paper-box-text' markdown="1">
 
 **Highlights**
 
-- Leveraging the computational resource of discarded smartphones. 
-- Providing a cost-effective method to lower the barrier of drug discovery.
-- The PCSA algorithm in this project to ensure different thermal dissipation requirement while accelerating virtual screening.
+- Leveraging the computational resource of discarded smartphones  
+- Providing a cost-effective method to lower the barrier of drug discovery  
+- The PCSA algorithm in this project ensures different thermal dissipation requirements while accelerating virtual screening  
 
   </div>
 </div>
 
 **Publications**
+
 <div class="pub-card" markdown="1">
+
 - **[EEVS: Redeploying Discarded Smartphones for an Economical and Ecological Drug Molecules Virtual Screening](https://ieeexplore.ieee.org/abstract/document/10884806)**  
-  *TSC, 2024*
+  *TSC, 2024*  
+
 </div>
+
