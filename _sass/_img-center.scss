@@ -1,0 +1,14 @@
+.img-center {
+  text-align: center;
+  margin: 20px 0;
+}
+.img-center img {
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.img-center p {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 6px;
+}

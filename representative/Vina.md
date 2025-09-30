@@ -9,7 +9,7 @@ permalink: /representative/Vina/
 
 <p style="font-size:20px;">The goal of ligand—protein docking is to predict the predominant binding mode(s) of a ligand with a protein of known three-dimensional structure.</p>
 
-<div style="text-align:center;">
+<div class="img-center">
   <img src="/images/representative/vina/docking.gif" alt="demo" width="400">
   <p><em>Docking demo</em></p>
 </div>
@@ -35,7 +35,7 @@ by leveraging
 
 ## The efforts we do for accelerating Vina
 
-<div style="text-align:center;">
+<div class="img-center">
   <img src="/images/representative/vina/efforts.png" alt="efforts" width="400">
   <p><em>Docking demo</em></p>
 </div>

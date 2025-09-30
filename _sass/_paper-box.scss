@@ -29,3 +29,13 @@
   margin-top: 0;
 }
 
+.paper-box {
+  display: flex;
+  flex-wrap: wrap;    /* ⭐ 允许换行 */
+  gap: 20px;
+}
+
+.paper-box-text {
+  flex: 1 1 300px;    /* ⭐ 最小宽度 */
+  min-width: 280px;
+}
