@@ -56,7 +56,7 @@ by leveraging
 - Parallel calculation of inter-molecular energy and intra-molecular energy with their internal pipelines  
 - A novel parallel AG module design  
 
-  </div>
+  </div> <!-- ✅ 在这里关闭，不要再多一个 -->
 </div>
 
 | Metric of performance | CPU | Vina-FPGA | Vina-FPGA2 | Vina-FPGA-Cluster |
@@ -79,3 +79,4 @@ by leveraging
   *TVLSI, 2023*  
 
 </div>
+
