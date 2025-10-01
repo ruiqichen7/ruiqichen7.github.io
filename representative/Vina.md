@@ -46,9 +46,8 @@ by leveraging
 
 
 <h2 class="project-title">Vina-FPGA</h2>
-
 <div class="project-block">
-  <!-- ① 高亮：左图右文 -->
+  <!-- Highlights -->
   <div class="paper-box">
     <div class="paper-box-image">
       <img src="/images/representative/Vina/vinafpgacluster.png" alt="Research">
@@ -64,37 +63,24 @@ by leveraging
     </div>
   </div>
 
-  <!-- ② 表格：不加额外卡片边框 -->
+  <!-- Performance -->
   <div class="project-row">
     <h4 class="project-sub-title">Performance Metrics</h4>
     <table class="perf-table">
       <thead>
         <tr>
-          <th>Metrics</th>
-          <th>CPU</th>
-          <th>Vina-FPGA</th>
-          <th>Vina-FPGA2</th>
-          <th>Vina-FPGA-Cluster</th>
+          <th>Metrics</th><th>CPU</th><th>Vina-FPGA</th><th>Vina-FPGA2</th><th>Vina-FPGA-Cluster</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Latency</td>
-          <td>182.28s</td><td>48.40s</td><td>14.50s</td><td>6.67s</td>
-        </tr>
-        <tr>
-          <td>Speed up</td>
-          <td>1×</td><td>3.7×</td><td>12.6×</td><td>27.33×</td>
-        </tr>
-        <tr>
-          <td>Power</td>
-          <td>47.34W</td><td>4.70W</td><td>4.70W</td><td>19.48W</td>
-        </tr>
+        <tr><td>Latency</td><td>182.28s</td><td>48.40s</td><td>14.50s</td><td>6.67s</td></tr>
+        <tr><td>Speed up</td><td>1×</td><td>3.7×</td><td>12.6×</td><td>27.33×</td></tr>
+        <tr><td>Power</td><td>47.34W</td><td>4.70W</td><td>4.70W</td><td>19.48W</td></tr>
       </tbody>
     </table>
   </div>
 
-  <!-- ③ Publications：作为小卡片放在大框里 -->
+  <!-- Publications -->
   <div class="paper-section">
     <h4 class="project-sub-title">Publications</h4>
     <ul>
@@ -105,69 +91,58 @@ by leveraging
   </div>
 </div>
 
-<h2 class="project-title">Vina-GPU</h2>
 
+<h2 class="project-title">Vina-GPU</h2>
 <div class="project-block">
-  <!-- ① 高亮：左图右文 -->
+  <!-- Highlights -->
   <div class="paper-box">
     <div class="paper-box-image">
-      <img src="/images/representative/Vina/vinagpu.png" alt="Vina-GPU">
+      <img src="/images/representative/Vina/vinagpu.png" alt="Research">
     </div>
     <div class="paper-box-text">
       <h4 class="project-sub-title">Highlights</h4>
       <ul>
-        <li>1st OpenCL-based GPU implementation for AutoDock Vina</li>
-        <li>Multi-threaded width adjustment with reduced search depth without losing accuracy</li>
+        <li>1st OpenCL-based GPU implementation for Vina</li>
+        <li>Multi-thread width control: reduce search depth without missing favorable poses</li>
         <li>Considerable accuracy and speedup ratio (191.68×)</li>
       </ul>
     </div>
   </div>
 
-  <!-- ② GPU 这里没有表格，所以直接跳到 Publications -->
+  <!-- Publications -->
   <div class="paper-section">
-    <h4 class="project-sub-title">Publication</h4>
+    <h4 class="project-sub-title">Publications</h4>
     <ul>
-      <li>
-        <strong><a href="https://www.mdpi.com/1420-3049/27/9/3041" target="_blank">
-          Accelerating AutoDock Vina with GPUs
-        </a></strong><br>
-        <em>Molecules, 2022</em>
-      </li>
+      <li><strong><a href="https://www.mdpi.com/1420-3049/27/9/3041" target="_blank">Accelerating AutoDock Vina with GPUs</a></strong><br><em>Molecules, 2022</em></li>
+      <li><strong>Effectiveness Analysis of Multiple Initial States Simulated Annealing Algorithm, a Case Study on the Molecular Docking Tool AutoDock Vina</strong><br><em>TCBB, 2023</em></li>
+      <li><strong>Vina-GPU 2.0: Further Accelerating AutoDock Vina and Its Derivatives with Graphics Processing Units</strong><br><em>JCIM, 2023</em></li>
+      <li><strong>Vina-GPU 2.1: Towards Further Optimizing Docking Speed and Precision of AutoDock Vina and Its Derivatives</strong><br><em>TCBB, 2024</em></li>
     </ul>
   </div>
 </div>
 
 <h2 class="project-title">Vina-Phone</h2>
-
 <div class="project-block">
-  <!-- ① 高亮：左图右文 -->
+  <!-- Highlights -->
   <div class="paper-box">
     <div class="paper-box-image">
-      <img src="/images/representative/Vina/vinamobile.png" alt="Vina-Phone">
+      <img src="/images/representative/Vina/vinamobile.png" alt="Research">
     </div>
     <div class="paper-box-text">
       <h4 class="project-sub-title">Highlights</h4>
       <ul>
         <li>Leveraging the computational resources of discarded smartphones</li>
-        <li>Providing a cost-effective method to lower the barrier of drug discovery</li>
-        <li>Using the PCSA algorithm to ensure thermal dissipation while accelerating virtual screening</li>
+        <li>Cost-effective method to lower the barrier of drug discovery</li>
+        <li>PCSA algorithm ensures thermal dissipation requirements while accelerating virtual screening</li>
       </ul>
     </div>
   </div>
 
-  <!-- ② Publications -->
+  <!-- Publications -->
   <div class="paper-section">
-    <h4 class="project-sub-title">Publication</h4>
+    <h4 class="project-sub-title">Publications</h4>
     <ul>
-      <li>
-        <strong><a href="https://ieeexplore.ieee.org/abstract/document/10884806" target="_blank">
-          EEVS: Redeploying Discarded Smartphones for an Economical and Ecological Drug Molecules Virtual Screening
-        </a></strong><br>
-        <em>TSC, 2024</em>
-      </li>
+      <li><strong><a href="https://ieeexplore.ieee.org/abstract/document/10884806" target="_blank">EEVS: Redeploying Discarded Smartphones for an Economical and Ecological Drug Molecules Virtual Screening</a></strong><br><em>TSC, 2024</em></li>
     </ul>
   </div>
 </div>
-
-
-
