@@ -11,7 +11,9 @@
 .project-block > .paper-box,
 .project-block > .project-row,
 .project-block > .paper-section {
-  margin: 0 0 16px 0;  /* 覆盖 .paper-box 默认的外边距 */
+  margin: 16px 0 0 0;   /* 保持间距，只在内部留 */
+  width: auto;          /* 不要强制100%，让它跟随父级 */
+  box-sizing: border-box; /* 避免内外边距计算溢出 */
 }
 
 /* 第二段：表格区域（不需要卡片边框） */
