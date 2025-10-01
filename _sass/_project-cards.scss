@@ -32,3 +32,21 @@
   background: #f7f7f7;
   font-weight: 700;
 }
+
+.project-title {
+  color: #00349a;    /* 蓝色，可以改成你喜欢的深蓝 */
+  font-weight: 700;  /* 加粗 */
+  font-style: normal; /* 非斜体 */
+  margin-bottom: 12px;
+}
+
+
+.project-sub-title {
+  color: #333;       /* 深灰色/黑色 */
+  font-weight: 600;  /* 半粗 */
+  font-style: normal;
+  font-size: 1.2em;  /* 小一号 */
+  margin: 15px 0 8px;
+  border-left: 4px solid #00349a; /* 左侧加个蓝色竖线修饰 */
+  padding-left: 8px;
+}
