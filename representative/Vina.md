@@ -4,7 +4,7 @@ title: Vina Hardware Acceleration
 permalink: /representative/Vina/
 ---
 
-## What is docking?
+<h4 class="project-title">What is dokcing??</h4>
 
 
 <p style="font-size:20px;">The goal of ligand—protein docking is to predict the predominant binding mode(s) of a ligand with a protein of known three-dimensional structure.</p>
@@ -15,7 +15,8 @@ permalink: /representative/Vina/
 </div>
 
 
-## Why Vina?
+<h4 class="project-title">Why Vina?</h4>
+
 <p style="font-size:20px;">AutoDock Vina is usually recommended as the first-line tool in the implementation of molecular docking due to its docking speed and accuracy</p>
 
 <div class="img-center">
@@ -36,7 +37,7 @@ by leveraging
 </p>
 
 
-## The efforts we do for accelerating Vina
+<h4 class="project-title">The efforts we do for accelerating Vina </h4>
 
 <div class="img-center">
   <img src="/images/representative/Vina/efforts.png" alt="efforts" width="img-fluid">
@@ -44,7 +45,7 @@ by leveraging
 </div>
 
 
-<h3 class="project-title">Vina-FPGA</h3>
+<h4 class="project-title">Vina-FPGA</h4>
 
 <div class="project-block">
   <!-- ① 高亮：左图右文 -->
@@ -104,7 +105,7 @@ by leveraging
   </div>
 </div>
 
-<h3 class="project-title">Vina-GPU</h3>
+<h4 class="project-title">Vina-GPU</h4>
 
 <div class="project-block">
   <!-- ① 高亮：左图右文 -->
@@ -136,7 +137,7 @@ by leveraging
   </div>
 </div>
 
-<h3 class="project-title">Vina-Phone</h3>
+<h4 class="project-title">Vina-Phone</h4>
 
 <div class="project-block">
   <!-- ① 高亮：左图右文 -->
