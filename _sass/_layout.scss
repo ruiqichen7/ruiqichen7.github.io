@@ -183,8 +183,9 @@ h1 /* .post-title */ {
 /*    font-size: 42px; */
     letter-spacing: -1px;
     line-height: 1;
-		font-family: 'Titillium Web', sans-serif;
-		color: #522d80;
+		font-family: 'Segoe UI', sans-serif;
+    font-weight: 700;  
+		color: #00349a;
 
     @include media-query($on-laptop) {
 /*        font-size: 36px; */
@@ -195,7 +196,7 @@ h1 /* .post-title */ {
     margin-bottom: $spacing-unit;
 
     h2 {
-		font-family: 'Titillium Web', sans-serif;
+		font-family: 'Segoe UI', sans-serif;
 	font-weight: 500;
 /*        font-size: 32px; */
 
@@ -205,7 +206,7 @@ h1 /* .post-title */ {
     }
 
     h3 {
-		font-style: italic;
+		font-style: normal;
 /*        font-size: 26px; */
 
         @include media-query($on-laptop) {
@@ -219,6 +220,12 @@ h1 /* .post-title */ {
         @include media-query($on-laptop) {
 /*            font-size: 18px; */
         }
+    }
+    p, ul, ol, blockquote {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.05em; /* 稍微大一点，提高可读性 */
+        line-height: 1.7;
+        color: #333;
     }
 }
 
@@ -237,7 +244,7 @@ ul.listing {
 ul.listing li.listing-seperator {
 	padding-top: 15px;
 	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Segoe UI', sans-serif;
 	font-size: 1.17em;
 }
 
@@ -252,6 +259,6 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
 	color: $clemson-deepblue;
 	font-weight: 400;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Segoe UI', sans-serif;
 }
 
