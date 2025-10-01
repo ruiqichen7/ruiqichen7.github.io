@@ -14,7 +14,17 @@
     </div>
 
     {% include footer.html %}
+
+    <!-- ✅ 引入 MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[','\\]']]
+        }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 
 </html>
-<!-- d.s.m.s.050600.062508.030515.080516.030818 | "Baby, I'm Yours" -->
