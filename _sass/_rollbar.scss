@@ -1,0 +1,54 @@
+.rollbar-container {
+  max-height: 400px;       /* 限制高度：大约能显示 10 条 */
+  overflow-y: auto;        /* 开启滚动条 */
+  padding-right: 6px;      /* 给滚动条留点空间 */
+  border-radius: 12px;     
+  border: 1px solid #ddd;
+  background: #fafafa;
+  scrollbar-width: thin;   /* Firefox */
+  scrollbar-color: #999 #eee;
+}
+
+/* 美化滚动条（Chrome, Edge, Safari） */
+.rollbar-container::-webkit-scrollbar {
+  width: 6px;
+}
+.rollbar-container::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 10px;
+}
+.rollbar-container::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 10px;
+}
+.rollbar-container::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+.rollbar-item {
+  display: flex;
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+.rollbar-date {
+  flex: 0 0 90px;
+  font-weight: bold;
+  color: #666;
+}
+
+.rollbar-text {
+  flex: 1;
+  line-height: 1.5;
+  color: #333;
+}
+
+.rollbar-text a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.rollbar-text a:hover {
+  text-decoration: underline;
+}

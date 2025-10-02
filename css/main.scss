@@ -8,8 +8,8 @@
 // Our variables
 $base-font-family: Arial, "Times New Roman", sans-serif;
 $base-font-size:   1.05em;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
+$small-font-size:  $base-font-size; //*0.875
+$base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
@@ -61,5 +61,6 @@ $on-laptop:        950px;
   "paper-box",
   "publications",
   "img-center",
-  "project-cards"
+  "project-cards",
+  "rollbar"
 ;
