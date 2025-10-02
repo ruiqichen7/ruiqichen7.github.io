@@ -1,8 +1,9 @@
 .rollbar-container {
-  max-height: 400px;       /* 限制高度：大约能显示 10 条 */
+  max-height: 384px;       /* 限制高度：大约能显示 10 条 */
   overflow-y: auto;        /* 开启滚动条 */
   padding-right: 6px;      /* 给滚动条留点空间 */
   border-radius: 12px;     
+  margin-bottom: 24px;
   border: 1px solid #ddd;
   background: #fafafa;
   scrollbar-width: thin;   /* Firefox */
