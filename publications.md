@@ -226,7 +226,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">EEVS: Redeploying Discarded Smartphones for Economic and Ecological Drug Molecules Virtual Screening</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/10884806" >10.1109/TSUSC.2025.3541958</a></p>
-        <p style="margin: 5px 0;"><i>IEEE Transactions on Sustainable Computing (Early Access)</i></p>
+        <p style="margin: 5px 0;"><i>IEEE Transactions on Sustainable Computing, 2025, 10(5):830-842.</i></p>
     </div>
 </div>
 
