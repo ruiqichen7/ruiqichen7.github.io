@@ -65,6 +65,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 🏅 Awards
 ======
 ------
+* 2025 Gold Award (First Place), 2nd Global Digital Intelligence Education Innovation Competition
 * 2025 Best Paper Award Candidate, International Conference on Computer-Aided Design (ICCAD)
 * 2025 Honorable Mention Paper Award, IEEE International Symposium of Electronics Design Automation (ISEDA)
 * 2019 Second Prize in the 3rd National College Student Integrated Circuit Innovation and Entrepreneurship Competition
