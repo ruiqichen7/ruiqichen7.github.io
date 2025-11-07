@@ -59,6 +59,7 @@
   @extend .rollbar-container;   /* 继承外观：字体、背景、圆角、阴影、边框色等 */
   max-height: none;             /* 不限制高度 */
   overflow: visible;            /* 不出现滚动条 */
+  background: #eee;
 }
 
 .paper-content {
@@ -66,6 +67,7 @@
   max-height: none;
   overflow: visible;
   padding: 0;                   /* 让每一条自己控制内边距 */
+  background: #eee;
 }
 
 /* 每一项：左标题 + 右侧刊物/年份 */
@@ -89,10 +91,10 @@
 /* 右侧刊物/年份（给足宽度显示缩写+年份） */
 .paper-meta {
   flex: 0 0 140px;              /* 你可按需要改成 120–180px */
-  text-align: right;
-  white-space: nowrap;
   font-weight: bold;
   color: #666;
+  text-align: right;
+  white-space: nowrap;
   opacity: .75;                 /* 与 Latest News 的日期色调接近 */
 }
 
