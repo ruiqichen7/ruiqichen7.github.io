@@ -54,78 +54,65 @@
   text-decoration: underline;
 }
 
-/* ---------- Papers (no scrollbar, rollbar-like look) ---------- */
+/* -------- Papers (non-scroll) -------- */
 .paper-container {
-  /* 复用 rollbar 的整体卡片风格，但不限制高度也不滚动 */
-  background: var(--rollbar-bg, #f7f9fc);
-  border: 1px solid var(--rollbar-border, #e6e9ef);
-  border-radius: 10px;
-  box-shadow: 0 1px 2px rgba(18, 22, 33, 0.03);
-  padding: 12px 14px;
-  margin: 12px 0 24px;
+  @extend .rollbar-container;   /* 继承外观：字体、背景、圆角、阴影、边框色等 */
+  max-height: none;             /* 不限制高度 */
+  overflow: visible;            /* 不出现滚动条 */
 }
 
-.paper-list {
-  display: block;
-  font: inherit; /* 与 rollbar 文案同字体 */
-  color: var(--text-color, #1f2937);
+.paper-content {
+  @extend .rollbar-content;     /* 继承内边距等 */
+  max-height: none;
+  overflow: visible;
+  padding: 0;                   /* 让每一条自己控制内边距 */
 }
 
+/* 每一项：左标题 + 右侧刊物/年份 */
 .paper-item {
-  /* 两列布局：左题目，右 meta（会议缩写+年份） */
-  display: grid;
-  grid-template-columns: 1fr 170px; /* 右侧留足空间显示缩写与年份 */
-  align-items: center;
-  gap: 10px 16px;
-  padding: 10px 4px;
-  /* 虚线分隔 */
-  border-bottom: 1px dashed var(--rollbar-sep, #d8dee9);
-
-  /* hover 轻微高亮，保持无滚动 */
-  &:hover {
-    background: rgba(31, 41, 55, 0.03);
-    border-radius: 6px;
-  }
-
-  /* 最后一项不画分隔线 */
-  &:last-child {
-    border-bottom: none;
-  }
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 14px 18px;
+  border-bottom: 1px dashed rgba(0,0,0,.12);  /* 虚线分隔 */
 }
 
+/* 最后一条去掉分隔线 */
+.paper-item:last-child { border-bottom: 0; }
+
+/* 标题区（左侧） */
 .paper-title {
+  flex: 1 1 auto;
   line-height: 1.55;
-  font-size: 16px;
-  a {
-    text-decoration: none;
-    color: var(--link-color, #1e40af);
-  }
-  a:hover {
-    text-decoration: underline;
-  }
 }
 
+/* 右侧刊物/年份（给足宽度显示缩写+年份） */
 .paper-meta {
-  justify-self: end;           /* 右对齐到卡片边缘 */
+  flex: 0 0 140px;              /* 你可按需要改成 120–180px */
   text-align: right;
-  font-size: 14px;
-  color: #556070;
-  white-space: nowrap;         /* 避免换行 */
-  overflow: hidden;
-  text-overflow: ellipsis;     /* 万一太长则省略 */
-  padding-left: 8px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: #666;
+  opacity: .75;                 /* 与 Latest News 的日期色调接近 */
 }
 
-/* 小屏自适应：把 meta 换到下一行靠左显示 */
+/* 链接样式与 rollbar 一致 */
+.paper-title a {
+  @extend .rollbar-text a;
+}
+.paper-title a:hover {
+  @extend .rollbar-text a:hover;
+}
+
+/* 小屏：把右侧 meta 换到下一行并左对齐 */
 @media (max-width: 640px) {
   .paper-item {
-    grid-template-columns: 1fr;
-    gap: 6px;
+    flex-direction: column;
+    gap: .25rem;
   }
   .paper-meta {
-    justify-self: start;
+    flex: none;
     text-align: left;
-    font-size: 13.5px;
-    color: #6b7280;
+    opacity: .8;
   }
 }
