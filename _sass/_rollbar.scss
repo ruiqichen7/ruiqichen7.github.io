@@ -54,51 +54,78 @@
   text-decoration: underline;
 }
 
-.indexpaper-section {
-  /* 强制背景与 rollbar 一致 */
-  background: rgba(251, 251, 251, 0.85) !important;
-  border-radius: 8px !important;
-  padding: 16px 24px !important;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05) !important;
-  border: 1px solid #eee !important;
-  margin-top: 12px !important;
+/* ---------- Papers (no scrollbar, rollbar-like look) ---------- */
+.paper-container {
+  /* 复用 rollbar 的整体卡片风格，但不限制高度也不滚动 */
+  background: var(--rollbar-bg, #f7f9fc);
+  border: 1px solid var(--rollbar-border, #e6e9ef);
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(18, 22, 33, 0.03);
+  padding: 12px 14px;
+  margin: 12px 0 24px;
+}
 
-  /* 字体风格统一 */
-  font-family: "Inter", sans-serif !important;
-  font-size: 0.95rem !important;
-  line-height: 1.55rem !important;
-  color: #222 !important;
+.paper-list {
+  display: block;
+  font: inherit; /* 与 rollbar 文案同字体 */
+  color: var(--text-color, #1f2937);
+}
 
-  ul {
-    margin: 0 !important;
-    padding-left: 20px !important;
-    list-style: disc !important;
+.paper-item {
+  /* 两列布局：左题目，右 meta（会议缩写+年份） */
+  display: grid;
+  grid-template-columns: 1fr 170px; /* 右侧留足空间显示缩写与年份 */
+  align-items: center;
+  gap: 10px 16px;
+  padding: 10px 4px;
+  /* 虚线分隔 */
+  border-bottom: 1px dashed var(--rollbar-sep, #d8dee9);
+
+  /* hover 轻微高亮，保持无滚动 */
+  &:hover {
+    background: rgba(31, 41, 55, 0.03);
+    border-radius: 6px;
   }
 
-  /* 每个条目的虚线分隔 */
-  li {
-    margin: 14px 0 !important;
-    padding-bottom: 12px !important;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.18) !important;
-
-    &:last-child {
-      border-bottom: none !important;
-      padding-bottom: 0 !important;
-    }
+  /* 最后一项不画分隔线 */
+  &:last-child {
+    border-bottom: none;
   }
+}
 
-  /* 链接颜色统一 */
+.paper-title {
+  line-height: 1.55;
+  font-size: 16px;
   a {
-    color: #005fcc !important;
-    text-decoration: none !important;
+    text-decoration: none;
+    color: var(--link-color, #1e40af);
   }
-
   a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
   }
+}
 
-  em {
-    color: #555 !important;
-    font-style: italic !important;
+.paper-meta {
+  justify-self: end;           /* 右对齐到卡片边缘 */
+  text-align: right;
+  font-size: 14px;
+  color: #556070;
+  white-space: nowrap;         /* 避免换行 */
+  overflow: hidden;
+  text-overflow: ellipsis;     /* 万一太长则省略 */
+  padding-left: 8px;
+}
+
+/* 小屏自适应：把 meta 换到下一行靠左显示 */
+@media (max-width: 640px) {
+  .paper-item {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .paper-meta {
+    justify-self: start;
+    text-align: left;
+    font-size: 13.5px;
+    color: #6b7280;
   }
 }
