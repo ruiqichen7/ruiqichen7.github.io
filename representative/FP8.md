@@ -54,7 +54,7 @@ FP8ApproxLib.</em></p>
     <ul>
       <li><strong>FP8ApproxLib: An FPGA-Based Approximate Multiplier Library for
 8-Bit Floating Point</strong><br><em>Under reviewing, 2025</em></li>
-      <li><strong><a href="https://ruiqichen7.github.io/representative/FP8_FCCM.pdf" target="_blank">FPGA-Based Approximate Multiplier for FP8
+      <li><strong><a href="https://ruiqichen7.github.io/representative/papers/FP8_FCCM.pdf" target="_blank">FPGA-Based Approximate Multiplier for FP8
 </a></strong><br><em>FCCM, 2025</em></li>
     </ul>
 </div>

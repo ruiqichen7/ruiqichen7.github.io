@@ -4,7 +4,7 @@ title: Vina Hardware Acceleration
 permalink: /representative/Vina/
 ---
 
-<h2 class="project-title">What is dokcing?</h2>
+<h2 class="project-title">What is docking?</h2>
 
 
 <p style="font-size:20px;">The goal of ligand—protein docking is to predict the predominant binding mode(s) of a ligand with a protein of known three-dimensional structure.</p>
