@@ -54,67 +54,69 @@
   text-decoration: underline;
 }
 
-/* -------- Papers (non-scroll) -------- */
+/* ---------- Selected works：paper list (no scrollbar) ---------- */
+
 .paper-container {
-  @extend .rollbar-container;   /* 继承外观：字体、背景、圆角、阴影、边框色等 */
-  max-height: none;             /* 不限制高度 */
-  overflow: visible;            /* 不出现滚动条 */
-  background: #eee;
+  margin: 16px 0 32px;
 }
 
-.paper-content {
-  @extend .rollbar-content;     /* 继承内边距等 */
-  max-height: none;
-  overflow: visible;
-  padding: 0;                   /* 让每一条自己控制内边距 */
-  background: #eee;
+/* 外框：与 rollbar 相近的卡片外观 */
+.paper-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;              /* 淡灰底，和 GitHub/rollbar 接近 */
+  border: 1px solid #ddd;        /* 外边框 */
+  border-radius: 12px;
 }
 
-/* 每一项：左标题 + 右侧刊物/年份 */
+/* 每一行 */
 .paper-item {
   display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 14px 18px;
-  border-bottom: 1px dashed rgba(0,0,0,.12);  /* 虚线分隔 */
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
 }
 
-/* 最后一条去掉分隔线 */
-.paper-item:last-child { border-bottom: 0; }
+/* 行与行之间的虚线分隔 */
+.paper-item + .paper-item {
+  border-top: 1px dashed #d8dee4;   /* 与 rollbar 分隔色接近 */
+}
 
-/* 标题区（左侧） */
+/* 左侧标题链接（继承 rollbar 风格的颜色/权重） */
 .paper-title {
   flex: 1 1 auto;
-  line-height: 1.55;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1.45;
+}
+.paper-title:hover,
+.paper-title:focus {
+  text-decoration: underline;
 }
 
-/* 右侧刊物/年份（给足宽度显示缩写+年份） */
+/* 右侧刊物缩写 + 年份，固定宽度，右对齐 */
 .paper-meta {
-  flex: 0 0 140px;              /* 你可按需要改成 120–180px */
-  font-weight: bold;
-  color: #666;
+  flex: 0 0 140px;
   text-align: right;
   white-space: nowrap;
-  opacity: .75;                 /* 与 Latest News 的日期色调接近 */
+  font-size: 14px;
+
+  /* 与 Latest News 日期相同的效果 */
+  font-weight: bold;
+  color: #666;
+
+  opacity: 1;        /* 确保颜色不被淡化 */
 }
 
-/* 链接样式与 rollbar 一致 */
-.paper-title a {
-  @extend .rollbar-text a;
-}
-.paper-title a:hover {
-  @extend .rollbar-text a:hover;
-}
 
-/* 小屏：把右侧 meta 换到下一行并左对齐 */
+/* 窄屏适配：稍微收窄右侧栏 */
 @media (max-width: 640px) {
-  .paper-item {
-    flex-direction: column;
-    gap: .25rem;
-  }
   .paper-meta {
-    flex: none;
-    text-align: left;
-    opacity: .8;
+    flex-basis: 110px;
+    font-size: 13px;
+  }
+  .paper-item {
+    align-items: flex-start;
   }
 }
