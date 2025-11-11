@@ -69,13 +69,13 @@ by leveraging
     <table class="perf-table">
       <thead>
         <tr>
-          <th>Metrics</th><th>CPU</th><th>Vina-FPGA</th><th>Vina-FPGA2</th><th>Vina-FPGA-Cluster</th>
+          <th>Metrics</th><th>CPU</th><th>Vina-FPGA</th><th>Vina-FPGA2</th><th>Vina-FPGA-Cluster</th><th>Vina-FPGA-Cluster2</th>
         </tr>
       </thead>
       <tbody>
-        <tr><td>Latency</td><td>182.28s</td><td>48.40s</td><td>14.50s</td><td>6.67s</td></tr>
-        <tr><td>Speed up</td><td>1×</td><td>3.7×</td><td>12.6×</td><td>27.33×</td></tr>
-        <tr><td>Power</td><td>47.34W</td><td>4.70W</td><td>4.70W</td><td>19.48W</td></tr>
+        <tr><td>Latency</td><td>182.28s</td><td>48.40s</td><td>14.50s</td><td>6.67s</td><td>6.08s</td></tr>
+        <tr><td>Speed up</td><td>1×</td><td>3.7×</td><td>12.6×</td><td>27.33×</td><td>29.9×</td></tr>
+        <tr><td>Power</td><td>47.34W</td><td>4.70W</td><td>4.70W</td><td>19.48W</td><td>14.34W</td></tr>
       </tbody>
     </table>
   </div>
