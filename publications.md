@@ -115,7 +115,7 @@ permalink: /publications/
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">	Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA </h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://arxiv.org/abs/2507.03308" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11241002" >10.1109/ICCAD66269.2025.11241002</a></p>
         <p style="margin: 5px 0;"><i>Proceedings of the 44th IEEE/ACM International Conference on Computer-Aided Design</i></p>
     </div>
 </div>
@@ -138,7 +138,7 @@ permalink: /publications/
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">	Diff-DiT: Temporal Differential Accelerator for Low-bit Diffusion Transformers on FPGA </h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://2025.iccad.com/" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11240791" >10.1109/ICCAD66269.2025.11240791</a></p>
         <p style="margin: 5px 0;"><i>Proceedings of the 44th IEEE/ACM International Conference on Computer-Aided Design</i></p>
     </div>
 </div>
