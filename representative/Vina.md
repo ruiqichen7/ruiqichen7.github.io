@@ -85,7 +85,7 @@ by leveraging
     <h4 class="project-sub-title">Publications</h4>
     <ul>
       <li><strong>Breaking the BRAM Wall: Scalable Vina FPGA Acceleration via Distributed Grid Storage and Cross-Board Long-Ring Pipelines (Vina-FPGA-Cluster2)</strong><br><em>DATE, 2026</em></li>
-      <li><strong>Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline</strong><br><em>FITEE, 2025</em></li>
+      <li><strong><a href="https://link.springer.com/article/10.1631/FITEE.2400941" target="_blank">Vina-FPGA 2.0: A High-Level Parallelized Hardware-Accelerated Molecular Docking Tool Based on Inter-Module Pipeline</a></strong><br><em>FITEE, 2025</em></li>
       <li><strong><a href="https://ieeexplore.ieee.org/abstract/document/10500753" target="_blank">Vina-FPGA-Cluster: Multi-FPGA Based Molecular Docking Tool with High-Accuracy and Multi-Level Parallelism</a></strong><br><em>TBioCAS, 2024</em></li>
       <li><strong><a href="https://ieeexplore.ieee.org/document/9940230" target="_blank">Vina-FPGA: A Hardware-Accelerated Molecular Docking Tool With Fixed-Point Quantization and Low-Level Parallelism</a></strong><br><em>TVLSI, 2023</em></li>
     </ul>

@@ -88,6 +88,29 @@ permalink: /publications/
         font-size: 14px;
         font-weight: bold;
         border-radius: 3px;
+      ">FITEE</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Vina-FPGA2: a high-level parallelized hardware-accelerated molecular docking tool based on the inter-module pipeline</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://link.springer.com/article/10.1631/FITEE.2400941" >10.1631/FITEE.2400941</a></p>
+        <p style="margin: 5px 0;"><i>Frontiers of Information Technology & Electronic Engineering (Early Access)</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
       ">TVLSI</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
