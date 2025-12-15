@@ -51,7 +51,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 
 - **Conference Reviews**
   - Asia Pacific Conference on Circuits and Systems (APCCAS) [[2024](https://www.apccas2024.org/)]
-  - International Symposium on Circuits and Systems (ISCAS) [[2024](https://2024.ieee-iscas.org/), [2025](https://2025.ieee-iscas.org/)]
+  - International Symposium on Circuits and Systems (ISCAS) [[2024](https://2024.ieee-iscas.org/), [2025](https://2025.ieee-iscas.org/), [2026](https://2026.ieee-iscas.org/)]
   - Biomedical Circuits and Systems Conference (BioCAS) [[2024](https://2024.ieee-biocas.org/), [2025](https://2025.ieee-iscas.org/)]
 
 
