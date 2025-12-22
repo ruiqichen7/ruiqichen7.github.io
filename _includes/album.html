@@ -1,0 +1,89 @@
+<section class="album">
+
+  <!-- 分类 1 -->
+  <h2 class="album-title">Architecture</h2>
+
+  <div class="album-grid">
+    <div class="album-card" data-images='["/images/universitoura1.jpg","/images/universitoura2.jpg","/images/universitoura3.jpg"]'>
+      <div class="album-img">
+        <img src="/images/universitoura1.jpg" alt="">
+        <span class="nav prev">‹</span>
+        <span class="nav next">›</span>
+      </div>
+      <p class="album-caption">Modern Stair Design</p>
+    </div>
+
+    <div class="album-card" data-images='["/images/universitourb1.jpg","/images/universitourb2.jpg"]'>
+      <div class="album-img">
+        <img src="/images/universitourb1.jpg" alt="">
+        <span class="nav prev">‹</span>
+        <span class="nav next">›</span>
+      </div>
+      <p class="album-caption">Concrete Geometry</p>
+    </div>
+  </div>
+
+  <!-- 分类 2（可无限复制） -->
+  <h2 class="album-title">Portrait</h2>
+
+  <div class="album-grid">
+    <div class="album-card" data-images='["/images/universitouruniversitour/p1.jpg","/images/universitourp2.jpg"]'>
+      <div class="album-img">
+        <img src="/images/universitourp1.jpg" alt="">
+        <span class="nav prev">‹</span>
+        <span class="nav next">›</span>
+      </div>
+      <p class="album-caption">Neo Style Face</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- 弹窗 -->
+<div class="album-modal" id="albumModal">
+  <div class="modal-content">
+    <span class="modal-close">×</span>
+    <img id="modalImg" src="">
+    <p id="modalText"></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const cards = document.querySelectorAll('.album-card');
+  const modal = document.getElementById('albumModal');
+  const modalImg = document.getElementById('modalImg');
+  const modalText = document.getElementById('modalText');
+
+  cards.forEach(card => {
+    const images = JSON.parse(card.dataset.images);
+    let index = 0;
+    const img = card.querySelector('img');
+
+    card.querySelector('.prev').onclick = e => {
+      e.stopPropagation();
+      index = (index - 1 + images.length) % images.length;
+      img.src = images[index];
+    };
+
+    card.querySelector('.next').onclick = e => {
+      e.stopPropagation();
+      index = (index + 1) % images.length;
+      img.src = images[index];
+    };
+
+    img.onclick = () => {
+      modalImg.src = img.src;
+      modalText.innerText = card.querySelector('.album-caption').innerText;
+      modal.classList.add('show');
+    };
+  });
+
+  document.querySelector('.modal-close').onclick = () =>
+    modal.classList.remove('show');
+
+  modal.onclick = e => {
+    if (e.target === modal) modal.classList.remove('show');
+  };
+})();
+</script>

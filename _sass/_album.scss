@@ -1,0 +1,88 @@
+.album {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.album-title {
+  margin: 40px 0 20px;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.album-card {
+  text-align: center;
+  cursor: pointer;
+}
+
+.album-img {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  .nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 32px;
+    color: #fff;
+    background: rgba(0,0,0,0.4);
+    padding: 4px 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .prev { left: 5px; }
+  .next { right: 5px; }
+}
+
+.album-caption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* 弹窗 */
+.album-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.7);
+  z-index: 999;
+
+  &.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  max-width: 700px;
+  width: 90%;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 26px;
+  cursor: pointer;
+}
