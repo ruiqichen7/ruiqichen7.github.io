@@ -10,7 +10,7 @@
       data-images='["/images/universitour/Brown1.jpg","/images/universitour/Brown2.jpg"]'>
 
       <div class="ut-media">
-        <img class="ut-photo" src="/images/universitour/Brown1.jpg" alt="">
+        <div class="ut-photo" style="background-image:url('/images/universitour/Brown1.jpg')"></div> 
 
         <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
         <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
@@ -29,7 +29,7 @@
       data-images='["/images/universitour/ShanghaiTech1.JPEG","/images/universitour/ShanghaiTech2.JPEG"]'>
 
       <div class="ut-media">
-        <img class="ut-photo" src="/images/universitour/ShanghaiTech1.JPEG" alt="">
+        <div class="ut-photo" style="background-image:url('/images/universitour/ShanghaiTech1.JPEG')"></div> 
         <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
         <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
       </div>
@@ -47,7 +47,7 @@
       data-images='["/images/universitour/UiB1.jpg"]'>
 
       <div class="ut-media">
-        <img class="ut-photo" src="/images/universitour/UiB1.jpg" alt="">
+        <div class="ut-photo" style="background-image:url('/images/universitour/UiB1.jpg')"></div> 
         <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
         <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
       </div>
@@ -71,7 +71,7 @@
       data-images='["/images/universitour/d1.jpg","/images/universitour/d2.jpg"]'>
 
       <div class="ut-media">
-        <img class="ut-photo" src="/images/universitour/d1.jpg" alt="">
+        <div class="ut-photo" style="background-image:url('/images/universitour/Brown1.jpg')"></div> 
         <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
         <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
       </div>
@@ -149,10 +149,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 点击卡片弹窗
-    card.addEventListener('click', () => {
-      activeCard = cards.indexOf(card);
-      openModal();
-    });
+  card.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    activeCard = cards.indexOf(card);
+    openModal();
   });
 
   function buildStrip() {
