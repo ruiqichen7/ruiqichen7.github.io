@@ -1,89 +1,189 @@
-<section class="album">
+<section class="ut">
+  <h1 class="ut-page-title">Universitour</h1>
 
   <!-- 分类 1 -->
-  <h2 class="album-title">Architecture</h2>
+  <h2 class="ut-section-title">Architecture</h2>
 
-  <div class="album-grid">
-    <div class="album-card" data-images='["/images/universitoura1.jpg","/images/universitoura2.jpg","/images/universitoura3.jpg"]'>
-      <div class="album-img">
-        <img src="/images/universitoura1.jpg" alt="">
-        <span class="nav prev">‹</span>
-        <span class="nav next">›</span>
+  <div class="ut-grid">
+    <article
+      class="ut-card"
+      data-title="BASIC PORTFOLIO TILE"
+      data-subtitle="Design, Photography"
+      data-desc="这里写详细注释。可以很长，支持多段落。你也可以写拍摄地点、时间、学校信息等。"
+      data-images='["/images/universitour/NEU1.JPG","/images/universitour/NEU2.jpg","/images/universitour/NEU3.jpg"]'
+    >
+      <div class="ut-thumb">
+        <img src="/images/universitour/NEU1.JPG" alt="BASIC PORTFOLIO TILE">
+        <button class="ut-nav prev" aria-label="prev">‹</button>
+        <button class="ut-nav next" aria-label="next">›</button>
       </div>
-      <p class="album-caption">Modern Stair Design</p>
-    </div>
 
-    <div class="album-card" data-images='["/images/universitourb1.jpg","/images/universitourb2.jpg"]'>
-      <div class="album-img">
-        <img src="/images/universitourb1.jpg" alt="">
-        <span class="nav prev">‹</span>
-        <span class="nav next">›</span>
+      <div class="ut-meta">
+        <div class="ut-meta-title">BASIC PORTFOLIO TILE</div>
+        <div class="ut-meta-sub">Design, Photography</div>
       </div>
-      <p class="album-caption">Concrete Geometry</p>
-    </div>
+    </article>
+
+    <article
+      class="ut-card"
+      data-title="BASIC PORTFOLIO TILE"
+      data-subtitle="Design, Photography"
+      data-desc="这是另一张卡片的详细注释内容。点击图片弹窗会出现上方缩略图栏，并可在弹窗里切换。"
+      data-images='["/images/universitour/b1.jpg","/images/universitour/b2.jpg"]'
+    >
+      <div class="ut-thumb">
+        <img src="/images/universitour/b1.jpg" alt="BASIC PORTFOLIO TILE">
+        <button class="ut-nav prev" aria-label="prev">‹</button>
+        <button class="ut-nav next" aria-label="next">›</button>
+      </div>
+
+      <div class="ut-meta">
+        <div class="ut-meta-title">BASIC PORTFOLIO TILE</div>
+        <div class="ut-meta-sub">Design, Photography</div>
+      </div>
+    </article>
   </div>
 
-  <!-- 分类 2（可无限复制） -->
-  <h2 class="album-title">Portrait</h2>
-
-  <div class="album-grid">
-    <div class="album-card" data-images='["/images/universitouruniversitour/p1.jpg","/images/universitourp2.jpg"]'>
-      <div class="album-img">
-        <img src="/images/universitourp1.jpg" alt="">
-        <span class="nav prev">‹</span>
-        <span class="nav next">›</span>
+  <!-- 分类 2（继续往下复制即可） -->
+  <h2 class="ut-section-title">Portrait</h2>
+  <div class="ut-grid">
+    <article
+      class="ut-card"
+      data-title="BASIC PORTFOLIO TILE"
+      data-subtitle="Design, Photography"
+      data-desc="Portrait 分类示例。"
+      data-images='["/images/universitour/ShanghaiTech1.JPEG","/images/universitour/ShanghaiTech2.JPEG"]'
+    >
+      <div class="ut-thumb">
+        <img src="/images/universitour/ShanghaiTech1.JPEG" alt="BASIC PORTFOLIO TILE">
+        <button class="ut-nav prev" aria-label="prev">‹</button>
+        <button class="ut-nav next" aria-label="next">›</button>
       </div>
-      <p class="album-caption">Neo Style Face</p>
-    </div>
-  </div>
 
+      <div class="ut-meta">
+        <div class="ut-meta-title">BASIC PORTFOLIO TILE</div>
+        <div class="ut-meta-sub">Design, Photography</div>
+      </div>
+    </article>
+  </div>
 </section>
 
-<!-- 弹窗 -->
-<div class="album-modal" id="albumModal">
-  <div class="modal-content">
-    <span class="modal-close">×</span>
-    <img id="modalImg" src="">
-    <p id="modalText"></p>
+<!-- 弹窗（图2风格） -->
+<div class="ut-modal" id="utModal" aria-hidden="true">
+  <div class="ut-modal-inner" role="dialog" aria-modal="true">
+    <button class="ut-modal-close" id="utClose" aria-label="close">×</button>
+
+    <!-- 顶部缩略图条（图2上半部分） -->
+    <div class="ut-modal-strip">
+      <div class="ut-strip" id="utStrip"></div>
+    </div>
+
+    <!-- 气泡注释框（图2下半部分） -->
+    <div class="ut-bubble">
+      <div class="ut-bubble-arrow"></div>
+      <div class="ut-bubble-content">
+        <div class="ut-bubble-title" id="utMTitle"></div>
+        <div class="ut-bubble-sub" id="utMSub"></div>
+        <div class="ut-bubble-text" id="utMDesc"></div>
+      </div>
+    </div>
   </div>
 </div>
 
 <script>
 (function () {
-  const cards = document.querySelectorAll('.album-card');
-  const modal = document.getElementById('albumModal');
-  const modalImg = document.getElementById('modalImg');
-  const modalText = document.getElementById('modalText');
+  const cards = document.querySelectorAll(".ut-card");
 
+  const modal = document.getElementById("utModal");
+  const closeBtn = document.getElementById("utClose");
+  const strip = document.getElementById("utStrip");
+
+  const mTitle = document.getElementById("utMTitle");
+  const mSub = document.getElementById("utMSub");
+  const mDesc = document.getElementById("utMDesc");
+
+  function setCardImage(card, idx) {
+    const imgs = JSON.parse(card.dataset.images);
+    const imgEl = card.querySelector("img");
+    const n = imgs.length;
+    const safe = ((idx % n) + n) % n;
+    card.dataset.index = String(safe);
+    imgEl.src = imgs[safe];
+  }
+
+  // 初始化每张卡片 index
   cards.forEach(card => {
-    const images = JSON.parse(card.dataset.images);
-    let index = 0;
-    const img = card.querySelector('img');
+    card.dataset.index = "0";
+    const prev = card.querySelector(".prev");
+    const next = card.querySelector(".next");
 
-    card.querySelector('.prev').onclick = e => {
+    prev.addEventListener("click", (e) => {
       e.stopPropagation();
-      index = (index - 1 + images.length) % images.length;
-      img.src = images[index];
-    };
+      const idx = parseInt(card.dataset.index || "0", 10) - 1;
+      setCardImage(card, idx);
+    });
 
-    card.querySelector('.next').onclick = e => {
+    next.addEventListener("click", (e) => {
       e.stopPropagation();
-      index = (index + 1) % images.length;
-      img.src = images[index];
-    };
+      const idx = parseInt(card.dataset.index || "0", 10) + 1;
+      setCardImage(card, idx);
+    });
 
-    img.onclick = () => {
-      modalImg.src = img.src;
-      modalText.innerText = card.querySelector('.album-caption').innerText;
-      modal.classList.add('show');
-    };
+    // 点击图片/卡片打开弹窗
+    card.addEventListener("click", () => {
+      openModal(card);
+    });
   });
 
-  document.querySelector('.modal-close').onclick = () =>
-    modal.classList.remove('show');
+  function openModal(card) {
+    const imgs = JSON.parse(card.dataset.images);
+    const current = parseInt(card.dataset.index || "0", 10);
 
-  modal.onclick = e => {
-    if (e.target === modal) modal.classList.remove('show');
-  };
+    // 填文字
+    mTitle.textContent = card.dataset.title || "";
+    mSub.textContent = card.dataset.subtitle || "";
+    mDesc.textContent = card.dataset.desc || "";
+
+    // 生成顶部缩略图条（图2）
+    strip.innerHTML = "";
+    imgs.forEach((src, i) => {
+      const item = document.createElement("button");
+      item.className = "ut-strip-item" + (i === current ? " active" : "");
+      item.type = "button";
+      item.innerHTML = `
+        <div class="ut-strip-img"><img src="${src}" alt=""></div>
+        <div class="ut-strip-txt">
+          <div class="ut-strip-name">${card.dataset.title || "Untitled"}</div>
+          <div class="ut-strip-role">${card.dataset.subtitle || ""}</div>
+        </div>
+      `;
+      item.addEventListener("click", () => {
+        // 点缩略图：同步卡片当前图 + 高亮
+        setCardImage(card, i);
+        [...strip.querySelectorAll(".ut-strip-item")].forEach(x => x.classList.remove("active"));
+        item.classList.add("active");
+      });
+      strip.appendChild(item);
+    });
+
+    modal.classList.add("show");
+    modal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("ut-lock");
+  }
+
+  function closeModal() {
+    modal.classList.remove("show");
+    modal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("ut-lock");
+  }
+
+  closeBtn.addEventListener("click", closeModal);
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) closeModal();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && modal.classList.contains("show")) closeModal();
+  });
 })();
 </script>

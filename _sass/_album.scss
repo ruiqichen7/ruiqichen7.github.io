@@ -1,64 +1,97 @@
-.album {
+/* 页面容器 */
+.ut {
   max-width: 1200px;
-  margin: auto;
-  padding: 40px 20px;
+  margin: 0 auto;
+  padding: 36px 18px 60px;
 }
 
-.album-title {
-  margin: 40px 0 20px;
-  font-size: 22px;
+.ut-page-title {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 6px 0 34px;
+}
+
+.ut-section-title {
+  margin: 36px 0 18px;
+  font-size: 18px;
   letter-spacing: 1px;
 }
 
-.album-grid {
+/* 图1：网格 + 卡片 */
+.ut-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 26px;
 }
 
-.album-card {
-  text-align: center;
+.ut-card {
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
   cursor: pointer;
 }
 
-.album-img {
+.ut-thumb {
   position: relative;
   overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: #f5f5f5;
 
   img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
   }
-
-  .nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 32px;
-    color: #fff;
-    background: rgba(0,0,0,0.4);
-    padding: 4px 10px;
-    cursor: pointer;
-    user-select: none;
-  }
-
-  .prev { left: 5px; }
-  .next { right: 5px; }
 }
 
-.album-caption {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #555;
+.ut-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.9);
+  color: #333;
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+
+  &.prev { left: 10px; }
+  &.next { right: 10px; }
 }
 
-/* 弹窗 */
-.album-modal {
+.ut-meta {
+  padding: 14px 12px 16px;
+}
+
+.ut-meta-title {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.ut-meta-sub {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* 图2：弹窗 */
+.ut-lock { overflow: hidden; }
+
+.ut-modal {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,.7);
-  z-index: 999;
+  background: rgba(0,0,0,0.55);
+  z-index: 9999;
 
   &.show {
     display: flex;
@@ -67,22 +100,119 @@
   }
 }
 
-.modal-content {
-  background: #fff;
-  padding: 20px;
-  max-width: 700px;
-  width: 90%;
+.ut-modal-inner {
+  width: min(980px, 92vw);
+  background: #d77; /* 接近图2的底色氛围，可按你站点主题改 */
+  padding: 18px 18px 26px;
   position: relative;
+}
 
-  img {
-    width: 100%;
+.ut-modal-close {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* 顶部缩略图条（图2上面那排） */
+.ut-modal-strip {
+  background: transparent;
+  padding: 10px 6px 14px;
+  overflow-x: auto;
+}
+
+.ut-strip {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding-bottom: 6px;
+}
+
+.ut-strip-item {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  color: #fff;
+  min-width: 170px;
+  opacity: 0.9;
+
+  &.active {
+    opacity: 1;
   }
 }
 
-.modal-close {
+.ut-strip-img {
+  width: 150px;
+  height: 95px;
+  background: rgba(255,255,255,0.2);
+  border: 3px solid rgba(255,255,255,0.75);
+  margin-bottom: 8px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.ut-strip-txt {
+  line-height: 1.2;
+}
+
+.ut-strip-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ut-strip-role {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+
+/* 注释气泡框（图2下半部分的大框 + 小尖角） */
+.ut-bubble {
+  position: relative;
+  margin-top: 18px;
+  background: #efefef;
+  padding: 18px 18px 22px;
+}
+
+.ut-bubble-arrow {
   position: absolute;
-  top: 10px;
-  right: 15px;
-  font-size: 26px;
-  cursor: pointer;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0; height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 14px solid #efefef;
+}
+
+.ut-bubble-title {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.ut-bubble-sub {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.ut-bubble-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.7;
+  white-space: pre-wrap; /* 支持你写多段落 */
 }
