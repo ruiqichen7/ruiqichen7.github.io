@@ -7,7 +7,7 @@ permalink: /about/
 {% include image.html url="/images/crq.png" caption="PDNA_GKFC" width=200 align="right" %}
 
 <div style="text-align: justify;">
-I received my M.S. degree in Integrated Circuit Engineering from Fuzhou University in 2020, and the B.S. degree in Electronic Science and Technology from Southeast University Chengxian College in 2017. From 2020 to 2023, I served as a Research Assistant with VeriMake Innovation Lab, Fudan University and Southeast University, respectively. Currently, I am pursuing a joint Ph.D. degree in Engineering Sciences and Computer Science Engineering under the supervision of <a href="https://www.etrovub.be/people/member/about-bio/bdasilva/">Prof. Bruno da Silva</a> (VUB) and <a href="https://hes.elis.ugent.be/dstrooba/index.html">Prof. Dirk Stroobandt</a> (UGent). My research interests include domain-specific architecture and reconfigurable technologies.
+I received my M.S. degree in Integrated Circuit Engineering from Fuzhou University in 2020, and the B.S. degree in Electronic Science and Technology from Southeast University Chengxian College in 2017. From 2020 to 2023, I served as a Research Assistant with VeriMake Innovation Lab, Fudan University and Southeast University, respectively. Currently, I am pursuing a joint Ph.D. degree in Engineering Sciences and Computer Science Engineering under the supervision of <a href="https://www.etrovub.be/people/member/about-bio/bdasilva/">Prof. Bruno da Silva</a> (VUB) and <a href="https://hes.elis.ugent.be/members/dstroob.html">Prof. Dirk Stroobandt</a> (UGent). My research interests include domain-specific architecture and reconfigurable technologies.
 <br>
 <br>
 </div>
