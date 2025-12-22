@@ -93,7 +93,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">Vina-FPGA2: a high-level parallelized hardware-accelerated molecular docking tool based on the inter-module pipeline</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://link.springer.com/article/10.1631/FITEE.2400941" >10.1631/FITEE.2400941</a></p>
-        <p style="margin: 5px 0;"><i>Frontiers of Information Technology & Electronic Engineering (Early Access)</i></p>
+        <p style="margin: 5px 0;"><i>Frontiers of Information Technology & Electronic Engineering, 2025, 26(11):2215-2230.</i></p>
     </div>
 </div>
 
