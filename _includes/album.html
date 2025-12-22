@@ -1,189 +1,217 @@
-<section class="ut">
-  <h1 class="ut-page-title">Universitour</h1>
-
-  <!-- 分类 1 -->
-  <h2 class="ut-section-title">Architecture</h2>
+<section class="ut-wrap">
+  <h2 class="ut-section">Architecture</h2>
 
   <div class="ut-grid">
-    <article
-      class="ut-card"
+
+    <article class="ut-card"
       data-title="BASIC PORTFOLIO TILE"
       data-subtitle="Design, Photography"
-      data-desc="这里写详细注释。可以很长，支持多段落。你也可以写拍摄地点、时间、学校信息等。"
-      data-images='["/images/universitour/NEU1.JPG","/images/universitour/NEU2.jpg","/images/universitour/NEU3.jpg"]'
-    >
-      <div class="ut-thumb">
-        <img src="/images/universitour/NEU1.JPG" alt="BASIC PORTFOLIO TILE">
-        <button class="ut-nav prev" aria-label="prev">‹</button>
-        <button class="ut-nav next" aria-label="next">›</button>
+      data-note="这里写详细注释（可以很长）：地点、学校、路线、年份、空间观察……"
+      data-images='["/images/universitour/Brown1.jpg","/images/universitour/Brown2.jpg"]'>
+
+      <div class="ut-media">
+        <img class="ut-photo" src="/images/universitour/Brown1.jpg" alt="">
+
+        <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
+        <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
       </div>
 
       <div class="ut-meta">
-        <div class="ut-meta-title">BASIC PORTFOLIO TILE</div>
-        <div class="ut-meta-sub">Design, Photography</div>
+        <div class="ut-title">BASIC PORTFOLIO TILE</div>
+        <div class="ut-sub">Design, Photography</div>
       </div>
     </article>
 
-    <article
-      class="ut-card"
+    <article class="ut-card"
       data-title="BASIC PORTFOLIO TILE"
       data-subtitle="Design, Photography"
-      data-desc="这是另一张卡片的详细注释内容。点击图片弹窗会出现上方缩略图栏，并可在弹窗里切换。"
-      data-images='["/images/universitour/b1.jpg","/images/universitour/b2.jpg"]'
-    >
-      <div class="ut-thumb">
-        <img src="/images/universitour/b1.jpg" alt="BASIC PORTFOLIO TILE">
-        <button class="ut-nav prev" aria-label="prev">‹</button>
-        <button class="ut-nav next" aria-label="next">›</button>
+      data-note="第二张卡片的详细注释……"
+      data-images='["/images/universitour/ShanghaiTech1.JPEG","/images/universitour/ShanghaiTech2.JPEG"]'>
+
+      <div class="ut-media">
+        <img class="ut-photo" src="/images/universitour/ShanghaiTech1.JPEG" alt="">
+        <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
+        <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
       </div>
 
       <div class="ut-meta">
-        <div class="ut-meta-title">BASIC PORTFOLIO TILE</div>
-        <div class="ut-meta-sub">Design, Photography</div>
+        <div class="ut-title">BASIC PORTFOLIO TILE</div>
+        <div class="ut-sub">Design, Photography</div>
       </div>
     </article>
+
+    <article class="ut-card"
+      data-title="BASIC PORTFOLIO TILE"
+      data-subtitle="Design, Photography"
+      data-note="第三张卡片的详细注释……"
+      data-images='["/images/universitour/UiB1.jpg"]'>
+
+      <div class="ut-media">
+        <img class="ut-photo" src="/images/universitour/UiB1.jpg" alt="">
+        <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
+        <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
+      </div>
+
+      <div class="ut-meta">
+        <div class="ut-title">BASIC PORTFOLIO TILE</div>
+        <div class="ut-sub">Design, Photography</div>
+      </div>
+    </article>
+
   </div>
 
-  <!-- 分类 2（继续往下复制即可） -->
-  <h2 class="ut-section-title">Portrait</h2>
+
+  <!-- 再加一个分类（无限往下加） -->
+  <h2 class="ut-section">Street / Detail</h2>
   <div class="ut-grid">
-    <article
-      class="ut-card"
-      data-title="BASIC PORTFOLIO TILE"
-      data-subtitle="Design, Photography"
-      data-desc="Portrait 分类示例。"
-      data-images='["/images/universitour/ShanghaiTech1.JPEG","/images/universitour/ShanghaiTech2.JPEG"]'
-    >
-      <div class="ut-thumb">
-        <img src="/images/universitour/ShanghaiTech1.JPEG" alt="BASIC PORTFOLIO TILE">
-        <button class="ut-nav prev" aria-label="prev">‹</button>
-        <button class="ut-nav next" aria-label="next">›</button>
+    <article class="ut-card"
+      data-title="Another Tile"
+      data-subtitle="Campus, 2025"
+      data-note="这里是另一个分类下的说明……"
+      data-images='["/images/universitour/d1.jpg","/images/universitour/d2.jpg"]'>
+
+      <div class="ut-media">
+        <img class="ut-photo" src="/images/universitour/d1.jpg" alt="">
+        <button class="ut-arrow ut-left" type="button" aria-label="Prev">‹</button>
+        <button class="ut-arrow ut-right" type="button" aria-label="Next">›</button>
       </div>
 
       <div class="ut-meta">
-        <div class="ut-meta-title">BASIC PORTFOLIO TILE</div>
-        <div class="ut-meta-sub">Design, Photography</div>
+        <div class="ut-title">Another Tile</div>
+        <div class="ut-sub">Campus, 2025</div>
       </div>
     </article>
   </div>
 </section>
 
-<!-- 弹窗（图2风格） -->
+<!-- 图2风格弹窗 -->
 <div class="ut-modal" id="utModal" aria-hidden="true">
-  <div class="ut-modal-inner" role="dialog" aria-modal="true">
-    <button class="ut-modal-close" id="utClose" aria-label="close">×</button>
+  <div class="ut-modal-box" role="dialog" aria-modal="true">
+    <button class="ut-close" type="button" aria-label="Close">×</button>
 
-    <!-- 顶部缩略图条（图2上半部分） -->
-    <div class="ut-modal-strip">
-      <div class="ut-strip" id="utStrip"></div>
-    </div>
+    <!-- 顶部条（图2那种一排） -->
+    <div class="ut-strip" id="utStrip"></div>
 
-    <!-- 气泡注释框（图2下半部分） -->
-    <div class="ut-bubble">
-      <div class="ut-bubble-arrow"></div>
-      <div class="ut-bubble-content">
-        <div class="ut-bubble-title" id="utMTitle"></div>
-        <div class="ut-bubble-sub" id="utMSub"></div>
-        <div class="ut-bubble-text" id="utMDesc"></div>
+    <!-- 三角 + 说明框 -->
+    <div class="ut-bubble-area">
+      <div class="ut-pointer" id="utPointer"></div>
+      <div class="ut-bubble">
+        <div class="ut-bt" id="utBT"></div>
+        <div class="ut-bs" id="utBS"></div>
+        <div class="ut-bn" id="utBN"></div>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-(function () {
-  const cards = document.querySelectorAll(".ut-card");
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = Array.from(document.querySelectorAll('.ut-card'));
+  const modal = document.getElementById('utModal');
+  const strip = document.getElementById('utStrip');
+  const pointer = document.getElementById('utPointer');
 
-  const modal = document.getElementById("utModal");
-  const closeBtn = document.getElementById("utClose");
-  const strip = document.getElementById("utStrip");
+  const BT = document.getElementById('utBT');
+  const BS = document.getElementById('utBS');
+  const BN = document.getElementById('utBN');
 
-  const mTitle = document.getElementById("utMTitle");
-  const mSub = document.getElementById("utMSub");
-  const mDesc = document.getElementById("utMDesc");
+  let activeCard = 0;
 
-  function setCardImage(card, idx) {
-    const imgs = JSON.parse(card.dataset.images);
-    const imgEl = card.querySelector("img");
-    const n = imgs.length;
-    const safe = ((idx % n) + n) % n;
-    card.dataset.index = String(safe);
-    imgEl.src = imgs[safe];
-  }
+  const parse = (card) => ({
+    title: card.dataset.title || '',
+    subtitle: card.dataset.subtitle || '',
+    note: card.dataset.note || '',
+    images: JSON.parse(card.dataset.images || '[]')
+  });
 
-  // 初始化每张卡片 index
-  cards.forEach(card => {
-    card.dataset.index = "0";
-    const prev = card.querySelector(".prev");
-    const next = card.querySelector(".next");
+  // 卡片内部左右切换（固定区域 + 循环）
+  cards.forEach((card) => {
+    const img = card.querySelector('.ut-photo');
+    const left = card.querySelector('.ut-left');
+    const right = card.querySelector('.ut-right');
+    const data = parse(card);
+    let i = 0;
 
-    prev.addEventListener("click", (e) => {
+    const render = () => { if (data.images.length) img.src = data.images[i]; };
+
+    left.addEventListener('click', (e) => {
       e.stopPropagation();
-      const idx = parseInt(card.dataset.index || "0", 10) - 1;
-      setCardImage(card, idx);
+      if (!data.images.length) return;
+      i = (i - 1 + data.images.length) % data.images.length;
+      render();
     });
 
-    next.addEventListener("click", (e) => {
+    right.addEventListener('click', (e) => {
       e.stopPropagation();
-      const idx = parseInt(card.dataset.index || "0", 10) + 1;
-      setCardImage(card, idx);
+      if (!data.images.length) return;
+      i = (i + 1) % data.images.length;
+      render();
     });
 
-    // 点击图片/卡片打开弹窗
-    card.addEventListener("click", () => {
-      openModal(card);
+    // 点击卡片弹窗
+    card.addEventListener('click', () => {
+      activeCard = cards.indexOf(card);
+      openModal();
     });
   });
 
-  function openModal(card) {
-    const imgs = JSON.parse(card.dataset.images);
-    const current = parseInt(card.dataset.index || "0", 10);
+  function buildStrip() {
+    strip.innerHTML = '';
+    cards.forEach((card, idx) => {
+      const data = parse(card);
+      const thumb = (data.images[0] || card.querySelector('.ut-photo').src);
 
-    // 填文字
-    mTitle.textContent = card.dataset.title || "";
-    mSub.textContent = card.dataset.subtitle || "";
-    mDesc.textContent = card.dataset.desc || "";
-
-    // 生成顶部缩略图条（图2）
-    strip.innerHTML = "";
-    imgs.forEach((src, i) => {
-      const item = document.createElement("button");
-      item.className = "ut-strip-item" + (i === current ? " active" : "");
-      item.type = "button";
+      const item = document.createElement('button');
+      item.type = 'button';
+      item.className = 'ut-strip-item' + (idx === activeCard ? ' is-active' : '');
       item.innerHTML = `
-        <div class="ut-strip-img"><img src="${src}" alt=""></div>
-        <div class="ut-strip-txt">
-          <div class="ut-strip-name">${card.dataset.title || "Untitled"}</div>
-          <div class="ut-strip-role">${card.dataset.subtitle || ""}</div>
+        <div class="ut-thumb"><img src="${thumb}" alt=""></div>
+        <div class="ut-smeta">
+          <div class="ut-sname">${data.title}</div>
+          <div class="ut-srole">${data.subtitle}</div>
         </div>
       `;
-      item.addEventListener("click", () => {
-        // 点缩略图：同步卡片当前图 + 高亮
-        setCardImage(card, i);
-        [...strip.querySelectorAll(".ut-strip-item")].forEach(x => x.classList.remove("active"));
-        item.classList.add("active");
+      item.addEventListener('click', () => {
+        activeCard = idx;
+        updateModal();
+        buildStrip();
+        movePointer();
       });
       strip.appendChild(item);
     });
+  }
 
-    modal.classList.add("show");
-    modal.setAttribute("aria-hidden", "false");
-    document.body.classList.add("ut-lock");
+  function updateModal() {
+    const data = parse(cards[activeCard]);
+    BT.textContent = data.title;
+    BS.textContent = data.subtitle;
+    BN.textContent = data.note;
+  }
+
+  function movePointer() {
+    const active = strip.querySelector('.ut-strip-item.is-active');
+    if (!active) return;
+    const stripRect = strip.getBoundingClientRect();
+    const rect = active.getBoundingClientRect();
+    const x = (rect.left - stripRect.left) + rect.width / 2;
+    pointer.style.left = x + 'px';
+  }
+
+  function openModal() {
+    buildStrip();
+    updateModal();
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden', 'false');
+    requestAnimationFrame(movePointer);
   }
 
   function closeModal() {
-    modal.classList.remove("show");
-    modal.setAttribute("aria-hidden", "true");
-    document.body.classList.remove("ut-lock");
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
   }
 
-  closeBtn.addEventListener("click", closeModal);
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) closeModal();
-  });
-
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && modal.classList.contains("show")) closeModal();
-  });
-})();
+  modal.querySelector('.ut-close').addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+  window.addEventListener('resize', () => { if (modal.classList.contains('is-open')) movePointer(); });
+});
 </script>
