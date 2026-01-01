@@ -30,6 +30,29 @@ permalink: /publications/
         width: 80px;              
         box-sizing: border-box;    
         text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">JSA</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">FP8ApproxLib:An FPGA-Based Approximate Multiplier Library for 8-Bit Floating Point</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/journal/journal-of-systems-architecture" >TBD</a></p>
+        <p style="margin: 5px 0;"><i> Journal of Systems Architecture (Early Access).</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
         background-color: #070;
         color: #fff;
         padding: 3px 8px;
