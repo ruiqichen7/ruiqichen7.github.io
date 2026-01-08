@@ -92,6 +92,30 @@ permalink: /publications/
 </div>
 
 
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">TCAD</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">DIF-LUT Pro: An Automated Tool for Simple yet Scalable Approximation of Nonlinear Activation on FPGA</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11023583" >10.1109/TCAD.2025.3576333</a></p>
+        <p style="margin: 5px 0;"><i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2026, 45(1): 295-308.</i></p>
+    </div>
+</div>
+
+
 <a id="year-2025" style="scroll-margin-top: 70px;"></a>
 
 2025
@@ -116,7 +140,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">Vina-FPGA2: a high-level parallelized hardware-accelerated molecular docking tool based on the inter-module pipeline</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://link.springer.com/article/10.1631/FITEE.2400941" >10.1631/FITEE.2400941</a></p>
-        <p style="margin: 5px 0;"><i>Frontiers of Information Technology & Electronic Engineering, 2025, 26(11):2215-2230.</i></p>
+        <p style="margin: 5px 0;"><i>Frontiers of Information Technology & Electronic Engineering, 2025, 26(11): 2215-2230.</i></p>
     </div>
 </div>
 
@@ -186,29 +210,6 @@ permalink: /publications/
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">	Diff-DiT: Temporal Differential Accelerator for Low-bit Diffusion Transformers on FPGA </h3>
         <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11240791" >10.1109/ICCAD66269.2025.11240791</a></p>
         <p style="margin: 5px 0;"><i>Proceedings of the 44th IEEE/ACM International Conference on Computer-Aided Design</i></p>
-    </div>
-</div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #009;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">TCAD</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">DIF-LUT Pro: An Automated Tool for Simple yet Scalable Approximation of Nonlinear Activation on FPGA</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11023583" >10.1109/TCAD.2025.3576333</a></p>
-        <p style="margin: 5px 0;"><i>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (Early Access)</i></p>
     </div>
 </div>
 
