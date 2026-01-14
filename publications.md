@@ -40,7 +40,7 @@ permalink: /publications/
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">FP8ApproxLib:An FPGA-Based Approximate Multiplier Library for 8-Bit Floating Point</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/journal/journal-of-systems-architecture" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/science/article/pii/S1383762126000044" >10.1016/j.sysarc.2026.103686</a></p>
         <p style="margin: 5px 0;"><i> Journal of Systems Architecture (Early Access).</i></p>
     </div>
 </div>
