@@ -36,6 +36,29 @@ permalink: /publications/
         font-size: 14px;
         font-weight: bold;
         border-radius: 3px;
+      ">VLSI J.</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">BenDan: Benchmarking DPU Performance on FPGAs</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/journal/integration" >TBD</a></p>
+        <p style="margin: 5px 0;"><i> Integration-The VLSI Journal (Early Access).</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
       ">JSA</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
