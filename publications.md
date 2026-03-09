@@ -41,7 +41,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">Power-Efficient Spiking Conversion of Deep Unfolded Transformers</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://2026.ieee-iscas.org/" >TBD</a></p>
-        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+        <p style="margin: 5px 0;"><i>2026 IEEE International Symposium on Circuits and Systems</i></p>
     </div>
 </div>
 
@@ -64,7 +64,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">IDSPfree: An FPGA-Based Intrusion Detection System with DSP-Free Design</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://2026.ieee-iscas.org/" >TBD</a></p>
-        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+        <p style="margin: 5px 0;"><i>2026 IEEE International Symposium on Circuits and Systems</i></p>
     </div>
 </div>
 
