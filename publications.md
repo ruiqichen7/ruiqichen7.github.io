@@ -30,6 +30,52 @@ permalink: /publications/
         width: 80px;              
         box-sizing: border-box;    
         text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">ISCAS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Power-Efficient Spiking Conversion of Deep Unfolded Transformers</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://2026.ieee-iscas.org/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">ISCAS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">IDSPfree: An FPGA-Based Intrusion Detection System with DSP-Free Design</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://2026.ieee-iscas.org/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
         background-color: #009;
         color: #fff;
         padding: 3px 8px;
@@ -40,8 +86,8 @@ permalink: /publications/
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">BenDan: Benchmarking DPU Performance on FPGAs</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/journal/integration" >TBD</a></p>
-        <p style="margin: 5px 0;"><i> Integration-The VLSI Journal (Early Access).</i></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/science/article/pii/S0167926026000507" >10.1016/j.vlsi.2026.102695</a></p>
+        <p style="margin: 5px 0;"><i> Integration-The VLSI Journal, 2026, 109: 102695.</i></p>
     </div>
 </div>
 
@@ -64,7 +110,7 @@ permalink: /publications/
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">FP8ApproxLib:An FPGA-Based Approximate Multiplier Library for 8-Bit Floating Point</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/science/article/pii/S1383762126000044" >10.1016/j.sysarc.2026.103686</a></p>
-        <p style="margin: 5px 0;"><i> Journal of Systems Architecture (Early Access).</i></p>
+        <p style="margin: 5px 0;"><i> Journal of Systems Architecture, 2026, 173: 103686.</i></p>
     </div>
 </div>
 
