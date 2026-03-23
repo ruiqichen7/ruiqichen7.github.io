@@ -40,7 +40,7 @@ permalink: /publications/
     </div>
     <div style="flex: 1; padding-left: 20px;">
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">FANE: FPGA-based FP8 Approximate Neural Network Engine</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92" >TBD</a></p>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92" >10.1109/TVLSI.2026.3677683</a></p>
         <p style="margin: 5px 0;"><i> IEEE Transactions on Very Large Scale Integration (VLSI) Systems (Early Access)</i></p>
     </div>
 </div>
