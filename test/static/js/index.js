@@ -95,46 +95,6 @@ document.addEventListener("DOMContentLoaded", function () {
       output: "./static/images/compare/input_04.png",
       input: "./static/images/compare/output_04.png"
     },
-    {
-      output: "./static/images/compare/input_05.png",
-      input: "./static/images/compare/output_05.png"
-    },
-    {
-      output: "./static/images/compare/input_06.png",
-      input: "./static/images/compare/output_06.png"
-    },
-    {
-      output: "./static/images/compare/input_07.png",
-      input: "./static/images/compare/output_07.png"
-    },
-    {
-      output: "./static/images/compare/input_08.png",
-      input: "./static/images/compare/output_08.png"
-    },
-    {
-      output: "./static/images/compare/input_09.png",
-      input: "./static/images/compare/output_09.png"
-    },
-    {
-      output: "./static/images/compare/input_10.png",
-      input: "./static/images/compare/output_10.png"
-    },
-    {
-      output: "./static/images/compare/input_11.png",
-      input: "./static/images/compare/output_11.png"
-    },
-    {
-      output: "./static/images/compare/input_12.png",
-      input: "./static/images/compare/output_12.png"
-    },
-    {
-      output: "./static/images/compare/input_13.png",
-      input: "./static/images/compare/output_13.png"
-    },
-    {
-      output: "./static/images/compare/input_14.png",
-      input: "./static/images/compare/output_14.png"
-    }
 
   ];
 
