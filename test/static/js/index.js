@@ -91,10 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
       output: "./static/images/compare/input_03.png",
       input: "./static/images/compare/output_03.png"
     },
-    {
-      output: "./static/images/compare/input_04.png",
-      input: "./static/images/compare/output_04.png"
-    },
+
 
   ];
 
