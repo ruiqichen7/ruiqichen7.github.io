@@ -36,6 +36,29 @@ permalink: /publications/
         font-size: 14px;
         font-weight: bold;
         border-radius: 3px;
+      ">TECS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Diff-Acc: An Efficient FPGA Accelerator for Unconditional Diffusion Models</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/doi/10.1145/3728470" >10.1145/3728470</a></p>
+        <p style="margin: 5px 0;"><i>ACM Transactions on Embedded Computing Systems, 2026, 25(3): 1-21</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
       ">TVLSI</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
@@ -302,29 +325,6 @@ permalink: /publications/
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">	Diff-DiT: Temporal Differential Accelerator for Low-bit Diffusion Transformers on FPGA </h3>
         <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11240791" >10.1109/ICCAD66269.2025.11240791</a></p>
         <p style="margin: 5px 0;"><i>Proceedings of the 44th IEEE/ACM International Conference on Computer-Aided Design</i></p>
-    </div>
-</div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #009;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">TECS</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Diff-Acc: An Efficient FPGA Accelerator for Unconditional Diffusion Models</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/doi/10.1145/3728470" >10.1145/3728470</a></p>
-        <p style="margin: 5px 0;"><i>ACM Transactions on Embedded Computing Systems (Early Access)</i></p>
     </div>
 </div>
 
