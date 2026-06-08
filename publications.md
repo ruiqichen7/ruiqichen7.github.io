@@ -30,6 +30,52 @@ permalink: /publications/
         width: 80px;              
         box-sizing: border-box;    
         text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">DATE</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Breaking the BRAM Wall: Scalable Vina FPGA Acceleration via Distributed Grid Storage and Cross-Board Long-Ring Pipelines</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11539196" >10.23919/DATE69613.2026.11539196</a></p>
+        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">DATE</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Equicore: Accelerating Clebsch-Gordan Tensor Product of Equivariant Neural Networks on FPGA</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11539429" >10.23919/DATE69613.2026.11539429</a></p>
+        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
         background-color: #009;
         color: #fff;
         padding: 3px 8px;
@@ -159,53 +205,6 @@ permalink: /publications/
         <p style="margin: 5px 0;"><i> Journal of Systems Architecture, 2026, 173: 103686.</i></p>
     </div>
 </div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #070;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">DATE</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Breaking the BRAM Wall: Scalable Vina FPGA Acceleration via Distributed Grid Storage and Cross-Board Long-Ring Pipelines</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://www.date-conference.com/author-notification-d-t-and-e-tracks" >TBD</a></p>
-        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
-    </div>
-</div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #070;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">DATE</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Equicore: Accelerating Clebsch-Gordan Tensor Product of Equivariant Neural Networks on FPGA</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://www.date-conference.com/author-notification-d-t-and-e-tracks" >TBD</a></p>
-        <p style="margin: 5px 0;"><i>2026 Design, Automation & Test in Europe Conference & Exhibition</i></p>
-    </div>
-</div>
-
 
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
   <div style="flex: 0 0 80px;">
