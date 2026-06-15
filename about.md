@@ -81,4 +81,4 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 Hobbies and Interests
 ======
 ------
-* Tennis 🎾
+* Tennis 🎾 and Padel 🎾
