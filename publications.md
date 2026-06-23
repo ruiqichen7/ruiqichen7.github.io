@@ -22,6 +22,53 @@ permalink: /publications/
 2026
 ======  
 ------
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">ISCAS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Power-Efficient Spiking Conversion of Deep Unfolded Transformers</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11562883" >10.1109/ISCAS66217.2026.11562883</a></p>
+        <p style="margin: 5px 0;"><i>2026 IEEE International Symposium on Circuits and Systems</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">ISCAS</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">IDSPfree: An FPGA-Based Intrusion Detection System with DSP-Free Design</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/document/11562605" >10.1109/ISCAS66217.2026.11562605</a></p>
+        <p style="margin: 5px 0;"><i>2026 IEEE International Symposium on Circuits and Systems</i></p>
+    </div>
+</div>
+
 <div style="padding: 15px; margin-bottom: 20px; display: flex;">
   <div style="flex: 0 0 80px;">
     <span
@@ -111,52 +158,6 @@ permalink: /publications/
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">FANE: FPGA-based FP8 Approximate Neural Network Engine</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/abstract/document/11115970" >10.1109/TVLSI.2025.3593020</a></p>
         <p style="margin: 5px 0;"><i> IEEE Transactions on Very Large Scale Integration (VLSI) Systems (Early Access)</i></p>
-    </div>
-</div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #070;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">ISCAS</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Power-Efficient Spiking Conversion of Deep Unfolded Transformers</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://2026.ieee-iscas.org/" >TBD</a></p>
-        <p style="margin: 5px 0;"><i>2026 IEEE International Symposium on Circuits and Systems</i></p>
-    </div>
-</div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #070;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">ISCAS</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">IDSPfree: An FPGA-Based Intrusion Detection System with DSP-Free Design</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://2026.ieee-iscas.org/" >TBD</a></p>
-        <p style="margin: 5px 0;"><i>2026 IEEE International Symposium on Circuits and Systems</i></p>
     </div>
 </div>
 
