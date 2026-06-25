@@ -23,6 +23,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 
 🛠️ Skills
 ======
+------
 
 - **Programming**
   - Verilog, VHDL, HLS, Python, Java, and C/C++
@@ -36,6 +37,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 
 🧰 Services
 ======
+------
 
 - **Journal Reviews**
   - [Journal of Systems Architecture](https://www.sciencedirect.com/journal/journal-of-systems-architecture) (JSA) [2026 - Now]
