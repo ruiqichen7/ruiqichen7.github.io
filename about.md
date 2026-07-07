@@ -40,6 +40,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ------
 
 - **Journal Reviews**
+  - [Measurement](https://www.sciencedirect.com/journal/measurement) [2026 - Now]
   - [Journal of Systems Architecture](https://www.sciencedirect.com/journal/journal-of-systems-architecture) (JSA) [2026 - Now]
   - [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) [2025 - Now]
   - [ACM Transactions on Embedded Computing Systems](https://dl.acm.org/journal/tecs) (TECS) [2025 - Now]
