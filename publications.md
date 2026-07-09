@@ -31,6 +31,29 @@ permalink: /publications/
         width: 80px;              
         box-sizing: border-box;    
         text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">TVLSI</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">FANE: FPGA-based FP8 Approximate Neural Network Engine</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/abstract/document/11503218" >10.1109/TVLSI.2026.3677683</a></p>
+        <p style="margin: 5px 0;"><i> IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2026, 34(6): 2015-2019</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
         background-color: #070;
         color: #fff;
         padding: 3px 8px;
@@ -135,29 +158,6 @@ permalink: /publications/
         <h3 style="margin: 0;font-style: normal;font-weight: 600;">Diff-Acc: An Efficient FPGA Accelerator for Unconditional Diffusion Models</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://dl.acm.org/doi/10.1145/3728470" >10.1145/3728470</a></p>
         <p style="margin: 5px 0;"><i>ACM Transactions on Embedded Computing Systems, 2026, 25(3): 1-21</i></p>
-    </div>
-</div>
-
-<div style="padding: 15px; margin-bottom: 20px; display: flex;">
-  <div style="flex: 0 0 80px;">
-    <span
-      style="
-        display: inline-block;
-        width: 80px;              
-        box-sizing: border-box;    
-        text-align: center;
-        background-color: #009;
-        color: #fff;
-        padding: 3px 8px;
-        font-size: 14px;
-        font-weight: bold;
-        border-radius: 3px;
-      ">TVLSI</span>
-    </div>
-    <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">FANE: FPGA-based FP8 Approximate Neural Network Engine</h3>
-        <p style="margin: 5px 0;">DOI: <a href="https://ieeexplore.ieee.org/abstract/document/11115970" >10.1109/TVLSI.2025.3593020</a></p>
-        <p style="margin: 5px 0;"><i> IEEE Transactions on Very Large Scale Integration (VLSI) Systems (Early Access)</i></p>
     </div>
 </div>
 
