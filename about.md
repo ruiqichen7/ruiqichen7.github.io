@@ -40,12 +40,13 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ------
 
 - **Journal Reviews**
+  - [IEEE Transactions on Circuits and Systems II: Express Briefs](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8920) (TCAS2) [2026 - Now]
   - [Measurement](https://www.sciencedirect.com/journal/measurement) [2026 - Now]
   - [Journal of Systems Architecture](https://www.sciencedirect.com/journal/journal-of-systems-architecture) (JSA) [2026 - Now]
   - [Neural Networks](https://www.sciencedirect.com/journal/neural-networks) [2026 - Now]
   - [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) [2025 - Now]
   - [ACM Transactions on Embedded Computing Systems](https://dl.acm.org/journal/tecs) (TECS) [2025 - Now]
-  - [IEEE Transactions on Very Large Scale Integration](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92) (VLSI) Systems (TVLSI) [2025 - Now]
+  - [IEEE Transactions on Very Large Scale Integration (VLSI) Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92) (TVLSI) [2025 - Now]
   - [IEEE Embedded Systems Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995) (ESL) [2025 - Now]
   - [The Journal of Supercomputing](https://link.springer.com/journal/11227) [2024 - Now]
   - [Multimedia Systems](https://link.springer.com/journal/530) [2024 - Now]
