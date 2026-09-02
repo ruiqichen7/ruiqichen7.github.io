@@ -37,6 +37,98 @@ permalink: /publications/
         font-size: 14px;
         font-weight: bold;
         border-radius: 3px;
+      ">NEUCOM</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">DiffDock-FPGA: An efficient molecular docking accelerator with multi-level parallelism and specialized tensor product kernels</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.sciencedirect.com/science/article/pii/S0925231226023192" >10.1016/j.neucom.2026.134921</a></p>
+        <p style="margin: 5px 0;"><i> Neurocomputing, 2026, 705: 134921</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">ICCD</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">Beyond Partitioning: Logic Resynthesis for Multi-Die FPGAs</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://www.iccd-conf.com/2026/home.html" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>44th IEEE International Conference on Computer Design</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">FPL</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">From LUT-Based Multipliers to Systolic Arrays: An Automated FPGA Implementation Flow</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://2026.fpl.org/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>36th International Conference on Field-Programmable Logic and Applications</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #070;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
+      ">FPL</span>
+    </div>
+    <div style="flex: 1; padding-left: 20px;">
+        <h3 style="margin: 0;font-style: normal;font-weight: 600;">High-Accuracy FPGA-Based FP8 Approximate Multiplier</h3>
+        <p style="margin: 5px 0;">DOI: <a href="https://2026.fpl.org/" >TBD</a></p>
+        <p style="margin: 5px 0;"><i>36th International Conference on Field-Programmable Logic and Applications</i></p>
+    </div>
+</div>
+
+<div style="padding: 15px; margin-bottom: 20px; display: flex;">
+  <div style="flex: 0 0 80px;">
+    <span
+      style="
+        display: inline-block;
+        width: 80px;              
+        box-sizing: border-box;    
+        text-align: center;
+        background-color: #009;
+        color: #fff;
+        padding: 3px 8px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 3px;
       ">TVLSI</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
