@@ -40,6 +40,7 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 ------
 
 - **Journal Reviews**
+  - [ACM Transactions on Architecture and Code Optimization](https://dl.acm.org/journal/taco) (TACO) [2026 - Now]
   - [ACM Transactions on Embedded Computing Systems](https://dl.acm.org/journal/tecs) (TECS) [2025 - Now]
   - [ACM Transactions on Reconfigurable Technology and Systems](https://dl.acm.org/journal/trets) (TRETS) [2022 - Now]
   - [IEEE Embedded Systems Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995) (ESL) [2025 - Now]
