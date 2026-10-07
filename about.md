@@ -35,34 +35,6 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
   - Android, Arduino, STM32 MCU, Raspberry Pi, Jetson
 
 
-🧰 Services
-======
-------
-
-- **Journal Reviews**
-  - [ACM Transactions on Architecture and Code Optimization](https://dl.acm.org/journal/taco) (TACO) [2026 - Now]
-  - [ACM Transactions on Embedded Computing Systems](https://dl.acm.org/journal/tecs) (TECS) [2025 - Now]
-  - [ACM Transactions on Reconfigurable Technology and Systems](https://dl.acm.org/journal/trets) (TRETS) [2022 - Now]
-  - [IEEE Embedded Systems Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4563995) (ESL) [2025 - Now]
-  - [IEEE Transactions on Biomedical Circuits and Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4156126) (TBioCAS) [2023 - Now]
-  - [IEEE Transactions on Circuits and Systems II: Express Briefs](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8920) (TCAS2) [2026 - Now]
-  - [IEEE Transactions on Computers](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12) (TC) [2023 - Now]
-  - [IEEE Transactions on Very Large Scale Integration (VLSI) Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92) (TVLSI) [2025 - Now]
-  - [Journal of Systems Architecture](https://www.sciencedirect.com/journal/journal-of-systems-architecture) (JSA) [2026 - Now]
-  - [Measurement](https://www.sciencedirect.com/journal/measurement) [2026 - Now]
-  - [Multimedia Systems](https://link.springer.com/journal/530) [2024 - Now]
-  - [Neural Networks](https://www.sciencedirect.com/journal/neural-networks) [2026 - Now]
-  - [Neurocomputing](https://www.sciencedirect.com/journal/neurocomputing) [2025 - Now]
-  - [PeerJ Computer Science](https://peerj.com/computer-science/) [2021 - Now]
-  - [The Journal of Supercomputing](https://link.springer.com/journal/11227) [2024 - Now]
-
-- **Conference Reviews**
-  - Asia Pacific Conference on Circuits and Systems (APCCAS) [[2024](https://www.apccas2024.org/)]
-  - Biomedical Circuits and Systems Conference (BioCAS) [[2024](https://2024.ieee-biocas.org/), [2025](https://2025.ieee-iscas.org/), [2026](https://2026.ieee-biocas.org/2026/)]
-  - International Conference on Field-Programmable Logic and Applications (FPL) [[2026](https://2026.fpl.org/)]
-  - International Symposium on Circuits and Systems (ISCAS) [[2024](https://2024.ieee-iscas.org/), [2025](https://2025.ieee-iscas.org/), [2026](https://2026.ieee-iscas.org/)]
-
-
 👥 Memberships
 ======
 ------
@@ -88,3 +60,9 @@ Hobbies and Interests
 ======
 ------
 * Tennis 🎾 and Padel 🎾
+
+<h1 id="cv">CV</h1>
+
+I embed a current version of my CV (as of 9 January 2026) below. You can also <a href="{{ "/images/CV.pdf" | relative_url }}" download>download the PDF here</a>.
+
+{% include embedpdf.html code="https://ruiqichen7.github.io/images/CV.pdf" width=100 height=800 %}

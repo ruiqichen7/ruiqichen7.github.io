@@ -86,7 +86,7 @@ permalink: /publications/
       ">FPL</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">From LUT-Based Multipliers to Systolic Arrays: An Automated FPGA Implementation Flow</h3>
+        <h3 id="auto-sa" style="scroll-margin-top: 90px; margin: 0;font-style: normal;font-weight: 600;">From LUT-Based Multipliers to Systolic Arrays: An Automated FPGA Implementation Flow</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://2026.fpl.org/" >TBD</a></p>
         <p style="margin: 5px 0;"><i>36th International Conference on Field-Programmable Logic and Applications</i></p>
     </div>
@@ -109,7 +109,7 @@ permalink: /publications/
       ">FPL</span>
     </div>
     <div style="flex: 1; padding-left: 20px;">
-        <h3 style="margin: 0;font-style: normal;font-weight: 600;">High-Accuracy FPGA-Based FP8 Approximate Multiplier</h3>
+        <h3 id="high-accuracy-fp8" style="scroll-margin-top: 90px; margin: 0;font-style: normal;font-weight: 600;">High-Accuracy FPGA-Based FP8 Approximate Multiplier</h3>
         <p style="margin: 5px 0;">DOI: <a href="https://2026.fpl.org/" >TBD</a></p>
         <p style="margin: 5px 0;"><i>36th International Conference on Field-Programmable Logic and Applications</i></p>
     </div>

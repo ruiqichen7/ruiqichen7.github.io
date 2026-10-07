@@ -23,6 +23,89 @@
   flex: 1;
 }
 
+.page-activities .activity-card .paper-box-text {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.page-activities {
+  .teaching-list,
+  .events-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .teaching-course + .teaching-course,
+  .event-entry + .event-entry {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .teaching-course-header,
+  .event-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 4px 20px;
+    margin-bottom: 6px;
+  }
+
+  .teaching-course-header h3,
+  .event-header h3 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .teaching-code,
+  .teaching-year,
+  .teaching-meta,
+  .event-role {
+    color: #595959;
+    font-size: 0.9em;
+    font-weight: 400;
+  }
+
+  .teaching-code,
+  .teaching-year {
+    white-space: nowrap;
+  }
+
+  .teaching-meta {
+    margin: 0;
+  }
+
+  .teaching-meta span {
+    padding: 0 5px;
+  }
+
+  .event-paper {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .event-paper + .event-paper {
+    margin-top: 6px;
+  }
+
+  .event-paper a {
+    color: $text-color;
+    text-decoration: underline;
+    text-decoration-color: #b8c6df;
+    text-underline-offset: 3px;
+
+    &:hover,
+    &:focus-visible {
+      color: $brand-color;
+      text-decoration-color: $brand-color;
+    }
+  }
+}
+
 .paper-box-text h2,
 .paper-box-text h3,
 .paper-box-text strong {
