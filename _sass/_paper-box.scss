@@ -29,6 +29,63 @@
 }
 
 .page-activities {
+  .post-content > h2 {
+    margin: 48px 0 25.5px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: #00349a;
+  }
+
+  .post-content > h2:first-child {
+    margin-top: 0;
+  }
+
+  .activity-card {
+    margin: 16px 0 32px;
+    padding: 12px 16px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: none;
+    font-family: Arial, "Times New Roman", serif;
+    font-size: 1.05em;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .activity-card p,
+  .activity-card ul {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .activity-card a {
+    color: #0066cc;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+  }
+
+  .activity-card .paper-box-text > ul:last-child {
+    margin-bottom: 0;
+  }
+
+  .activity-card .paper-box-text > ul > li + li {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed #d8dee4;
+  }
+
+  .activity-card .paper-box-text > ul > li > ul > li {
+    padding: 4px 0;
+  }
+
   .teaching-list,
   .events-list {
     list-style: none;
@@ -38,9 +95,9 @@
 
   .teaching-course + .teaching-course,
   .event-entry + .event-entry {
-    margin-top: 18px;
-    padding-top: 18px;
-    border-top: 1px solid #e0e0e0;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed #d8dee4;
   }
 
   .teaching-course-header,
@@ -56,8 +113,8 @@
   .teaching-course-header h3,
   .event-header h3 {
     margin: 0;
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.05em;
+    font-weight: 400;
     line-height: 1.5;
   }
 
@@ -65,14 +122,19 @@
   .teaching-year,
   .teaching-meta,
   .event-role {
-    color: #595959;
-    font-size: 0.9em;
+    color: #666;
+    font-size: 1em;
     font-weight: 400;
   }
 
   .teaching-code,
   .teaching-year {
     white-space: nowrap;
+  }
+
+  .teaching-year,
+  .event-role {
+    font-weight: bold;
   }
 
   .teaching-meta {
@@ -85,25 +147,17 @@
 
   .event-paper {
     margin: 0;
-    line-height: 1.6;
+    line-height: 1.5;
+  }
+
+  .activity-card .event-paper {
+    font-size: 1.05em;
   }
 
   .event-paper + .event-paper {
     margin-top: 6px;
   }
 
-  .event-paper a {
-    color: $text-color;
-    text-decoration: underline;
-    text-decoration-color: #b8c6df;
-    text-underline-offset: 3px;
-
-    &:hover,
-    &:focus-visible {
-      color: $brand-color;
-      text-decoration-color: $brand-color;
-    }
-  }
 }
 
 .paper-box-text h2,

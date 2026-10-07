@@ -4,8 +4,9 @@ title: Activities
 permalink: /activities/
 ---
 
-<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 ## 🧰 Academic Services
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 
 - **Journal Reviews**
   - [ACM Transactions on Architecture and Code Optimization](https://dl.acm.org/journal/taco) (TACO) [2026 - Now]
@@ -31,8 +32,9 @@ permalink: /activities/
   - International Symposium on Circuits and Systems (ISCAS) [[2024](https://2024.ieee-iscas.org/), [2025](https://2025.ieee-iscas.org/), [2026](https://2026.ieee-iscas.org/)]
 </div></div>
 
-<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 ## 🎓 Teaching
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 
 <ul class="teaching-list">
   <li class="teaching-course">
@@ -52,8 +54,9 @@ permalink: /activities/
 </ul>
 </div></div>
 
-<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 ## 🎤 Events & Speaking
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 
 <ul class="events-list">
   <li class="event-entry">
