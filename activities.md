@@ -5,7 +5,7 @@ permalink: /activities/
 ---
 
 <div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
-## Academic Services
+## 🧰 Academic Services
 
 - **Journal Reviews**
   - [ACM Transactions on Architecture and Code Optimization](https://dl.acm.org/journal/taco) (TACO) [2026 - Now]
@@ -32,7 +32,7 @@ permalink: /activities/
 </div></div>
 
 <div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
-## Teaching
+## 🎓 Teaching
 
 <ul class="teaching-list">
   <li class="teaching-course">
@@ -53,7 +53,7 @@ permalink: /activities/
 </div></div>
 
 <div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
-## Events & Speaking
+## 🎤 Events & Speaking
 
 <ul class="events-list">
   <li class="event-entry">
