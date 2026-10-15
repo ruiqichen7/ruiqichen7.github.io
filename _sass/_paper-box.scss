@@ -145,17 +145,44 @@
     padding: 0 5px;
   }
 
+  .event-header h3 {
+    font-size: 1.15em;
+    font-weight: 700;
+  }
+
+  .activity-card .event-header a {
+    color: #00349a;
+  }
+
+  .event-role {
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #edf0f4;
+    font-size: 0.85em;
+    font-weight: 400;
+  }
+
+  .activity-card .event-topics {
+    list-style: disc;
+    margin: 10px 0 0;
+    padding-left: 24px;
+  }
+
   .event-paper {
     margin: 0;
     line-height: 1.5;
   }
 
   .activity-card .event-paper {
-    font-size: 1.05em;
+    font-size: 1em;
+  }
+
+  .event-paper::marker {
+    color: #666;
   }
 
   .event-paper + .event-paper {
-    margin-top: 6px;
+    margin-top: 8px;
   }
 
 }

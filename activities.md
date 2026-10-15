@@ -64,50 +64,64 @@ permalink: /activities/
       <h3><a href="https://2026.fpl.org/">FPL 2026</a></h3>
       <span class="event-role">PhD Forum Presentation</span>
     </div>
-    <p class="event-paper"><a href='{{ "/publications/" | relative_url }}#high-accuracy-fp8'>High-Accuracy FPGA-Based FP8 Approximate Multiplier</a></p>
-    <p class="event-paper"><a href='{{ "/publications/" | relative_url }}#auto-sa'>From LUT-Based Multipliers to Systolic Arrays: An Automated FPGA Implementation Flow (Auto-SA)</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='{{ "/publications/" | relative_url }}#high-accuracy-fp8'>High-Accuracy FPGA-Based FP8 Approximate Multiplier</a></li>
+      <li class="event-paper"><a href='{{ "/publications/" | relative_url }}#auto-sa'>From LUT-Based Multipliers to Systolic Arrays: An Automated FPGA Implementation Flow (Auto-SA)</a></li>
+    </ul>
   </li>
   <li class="event-entry">
     <div class="event-header">
       <h3><a href="https://2026.ieee-iscas.org/">ISCAS 2026</a></h3>
       <span class="event-role">Paper Presentation</span>
     </div>
-    <p class="event-paper"><a href='https://ieeexplore.ieee.org/document/11562883'>Power-Efficient Spiking Conversion of Deep Unfolded Transformers</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='https://ieeexplore.ieee.org/document/11562883'>Power-Efficient Spiking Conversion of Deep Unfolded Transformers</a></li>
+    </ul>
   </li>
   <li class="event-entry">
     <div class="event-header">
       <h3><a href="https://2025.iccad.com/">ICCAD 2025</a></h3>
       <span class="event-role">Paper Presentation</span>
     </div>
-    <p class="event-paper"><a href='https://ieeexplore.ieee.org/document/11241002'>Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='https://ieeexplore.ieee.org/document/11241002'>Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA</a></li>
+    </ul>
   </li>
   <li class="event-entry">
     <div class="event-header">
       <h3><a href="https://www.fccm.org/past/2025/">FCCM 2025</a></h3>
       <span class="event-role">Paper Presentation</span>
     </div>
-    <p class="event-paper"><a href='https://ieeexplore.ieee.org/document/11008970'>FPGA-Based Approximate Multiplier for FP8</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='https://ieeexplore.ieee.org/document/11008970'>FPGA-Based Approximate Multiplier for FP8</a></li>
+    </ul>
   </li>
   <li class="event-entry">
     <div class="event-header">
       <h3><a href="https://date25.date-conference.com/">DATE 2025</a></h3>
       <span class="event-role">Paper Presentation</span>
     </div>
-    <p class="event-paper"><a href='https://ieeexplore.ieee.org/document/10993065'>ATE-GCN: An FPGA-Based Graph Convolutional Network Accelerator with Asymmetrical Ternary Quantization</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='https://ieeexplore.ieee.org/document/10993065'>ATE-GCN: An FPGA-Based Graph Convolutional Network Accelerator with Asymmetrical Ternary Quantization</a></li>
+    </ul>
   </li>
   <li class="event-entry">
     <div class="event-header">
       <h3><a href="https://2023.fpl.org/">FPL 2023</a></h3>
       <span class="event-role">Paper Presentation</span>
     </div>
-    <p class="event-paper"><a href='https://doi.org/10.1109/FPL60245.2023.00039'>Graph-OPU: A Highly Integrated FPGA-Based Overlay Processor for Graph Neural Networks</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='https://doi.org/10.1109/FPL60245.2023.00039'>Graph-OPU: A Highly Integrated FPGA-Based Overlay Processor for Graph Neural Networks</a></li>
+    </ul>
   </li>
   <li class="event-entry">
     <div class="event-header">
       <h3><a href="https://iscas2023.org/home/">ISCAS 2023</a></h3>
       <span class="event-role">Paper Presentation</span>
     </div>
-    <p class="event-paper"><a href='https://doi.org/10.1109/ISCAS46773.2023.10181734'>eSSpMV: An Embedded-FPGA-Based Hardware Accelerator for Symmetric Sparse Matrix-Vector Multiplication</a></p>
+    <ul class="event-topics" aria-label="Presentation topics">
+      <li class="event-paper"><a href='https://doi.org/10.1109/ISCAS46773.2023.10181734'>eSSpMV: An Embedded-FPGA-Based Hardware Accelerator for Symmetric Sparse Matrix-Vector Multiplication</a></li>
+    </ul>
   </li>
 </ul>
 </div></div>
