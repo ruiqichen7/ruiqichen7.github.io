@@ -23,12 +23,14 @@
   flex: 1;
 }
 
-.page-activities .activity-card .paper-box-text {
+.page-activities .activity-card .paper-box-text,
+.page-about .activity-card .paper-box-text {
   min-width: 0;
   overflow-wrap: break-word;
 }
 
-.page-activities {
+.page-activities,
+.page-about {
   .post-content > h2 {
     margin: 48px 0 25.5px;
     font-family: 'Segoe UI', sans-serif;
@@ -86,6 +88,29 @@
     padding: 4px 0;
   }
 
+}
+
+.page-about {
+  .activity-card .paper-box-text > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .activity-card strong {
+    color: #00349a;
+    font-weight: 700;
+  }
+
+  .about-research-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.page-activities {
   .teaching-list,
   .events-list {
     list-style: none;

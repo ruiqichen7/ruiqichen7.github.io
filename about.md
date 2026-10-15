@@ -15,15 +15,17 @@ I received my M.S. degree in Integrated Circuit Engineering from Fuzhou Universi
 
 You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/wechat.png).
 
-🔬 Research Interests
-======
-------
+## 🔬 Research Interests
 
-<img src='../images/research.png' style='width:auto;'>
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 
-🛠️ Skills
-======
-------
+<img class="about-research-image" src='../images/research.png' alt='Research interests'>
+
+</div></div>
+
+## 🛠️ Skills
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
 
 - **Programming**
   - Verilog, VHDL, HLS, Python, Java, and C/C++
@@ -34,17 +36,21 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 - **Embedded Prototyping**
   - Android, Arduino, STM32 MCU, Raspberry Pi, Jetson
 
+</div></div>
 
-👥 Memberships
-======
-------
+## 👥 Memberships
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
+
 * Member of the Institute of Electrical and Electronics Engineers (IEEE) [2019 - Now]
 * Member of the Association for Computing Machinery (ACM) [2024 - Now]
-  
 
-🏅 Awards
-======
-------
+</div></div>
+
+## 🏅 Awards
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
+
 * 2025 Gold Award (First Place), 2nd Global Digital Intelligence Education Innovation Competition
 * 2025 Best Paper Award Candidate, International Conference on Computer-Aided Design (ICCAD)
 * 2025 Honorable Mention Paper Award, IEEE International Symposium of Electronics Design Automation (ISEDA)
@@ -55,11 +61,15 @@ You can contact me via [Email](mailto:ruiqi.chen@vub.be) or [WeChat](../images/w
 * 2016 First Prize (Runner-up) in the 7th Jiangsu Province College Student Robotics Competition 
 * 2016 First Prize in the 9th Embedded System Design Competition at Southeast University
 
+</div></div>
 
-Hobbies and Interests
-======
-------
+## 🎾 Hobbies and Interests
+
+<div class="paper-box activity-card"><div class="paper-box-text" markdown="1">
+
 * Tennis 🎾 and Padel 🎾
+
+</div></div>
 
 <h1 id="cv">CV</h1>
 
