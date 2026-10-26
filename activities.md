@@ -17,6 +17,7 @@ permalink: /activities/
   - [IEEE Transactions on Circuits and Systems II: Express Briefs](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8920) (TCAS2) [2026 - Now]
   - [IEEE Transactions on Computers](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=12) (TC) [2023 - Now]
   - [IEEE Transactions on Very Large Scale Integration (VLSI) Systems](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=92) (TVLSI) [2025 - Now]
+  - [Journal of Parallel and Distributed Computing](https://www.sciencedirect.com/journal/journal-of-parallel-and-distributed-computing) (JPDC) [2026 - Now]
   - [Journal of Systems Architecture](https://www.sciencedirect.com/journal/journal-of-systems-architecture) (JSA) [2026 - Now]
   - [Measurement](https://www.sciencedirect.com/journal/measurement) [2026 - Now]
   - [Multimedia Systems](https://link.springer.com/journal/530) [2024 - Now]
